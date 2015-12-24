@@ -1,5 +1,5 @@
 {
-  "name": "{{package_name}}",
+  "name": "{{name}}",
   "version": "0.0.0",
   "description": "",
   "scripts": {
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kronos-Integration/{{package_name}}.git"
+    "url": "git+https://github.com/Kronos-Integration/{{name}}.git"
   },
   "bugs": {
-    "url": "https://github.com/Kronos-Integration/{{package_name}}/issues"
+    "url": "https://github.com/Kronos-Integration/{{name}}/issues"
   },
-  "homepage": "https://github.com/Kronos-Integration/{{package_name}}#readme",
+  "homepage": "https://github.com/Kronos-Integration/{{name}}#readme",
   "dependencies": {
     "scope-reporter": "2.3.0"
   },
