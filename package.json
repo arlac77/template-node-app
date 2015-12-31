@@ -17,9 +17,7 @@
     "url": "https://github.com/Kronos-Integration/{{name}}/issues"
   },
   "homepage": "https://github.com/Kronos-Integration/{{name}}#readme",
-  "dependencies": {
-    "scope-reporter": "2.3.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "chai": "3.4.1",
     "istanbul": "^0.4.1",
