@@ -9,6 +9,7 @@
 [![devDependency Status](https://david-dm.org/Kronos-Integration/{{name}}/dev-status.svg)](https://david-dm.org/Kronos-Integration/{{name}}#info=devDependencies)
 [![docs](http://inch-ci.org/github/Kronos-Integration/{{name}}.svg?branch=master)](http://inch-ci.org/github/Kronos-Integration/{{name}})
 [![downloads](http://img.shields.io/npm/dm/{{name}}.svg?style=flat-square)](https://npmjs.org/package/{{name}})
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 install
 =======
