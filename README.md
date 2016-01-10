@@ -3,6 +3,7 @@
 [![Build Status](https://secure.travis-ci.org/Kronos-Integration/{{name}}.png)](http://travis-ci.org/Kronos-Integration/{{name}})
 [![bithound](https://www.bithound.io/github/Kronos-Integration/{{name}}/badges/score.svg)](https://www.bithound.io/github/Kronos-Integration/{{name}})
 [![Coverage Status](https://coveralls.io/repos/Kronos-Integration/{{name}}/badge.svg)](https://coveralls.io/r/Kronos-Integration/{{name}})
+[![codecov.io](http://codecov.io/github/Kronos-Integration/{{name}}/coverage.svg?branch=master)](http://codecov.io/github/Kronos-Integration/{{name}}?branch=master)
 [![Code Climate](https://codeclimate.com/github/Kronos-Integration/{{name}}/badges/gpa.svg)](https://codeclimate.com/github/Kronos-Integration/{{name}})
 [![GitHub Issues](https://img.shields.io/github/issues/Kronos-Integration/{{name}}.svg?style=flat-square)](https://github.com/Kronos-Integration/{{name}}/issues)
 [![Dependency Status](https://david-dm.org/Kronos-Integration/{{name}}.svg)](https://david-dm.org/Kronos-Integration/{{name}})
