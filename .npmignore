@@ -10,3 +10,4 @@ build
 .npmrc
 .travis.yml
 .npmignore
+.vscode
