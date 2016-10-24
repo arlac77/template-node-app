@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kronos-Integration/{{name}}.git"
+    "url": "git+https://github.com/{{github.user}}/{{github.repo}}.git"
   },
   "bugs": {
-    "url": "https://github.com/Kronos-Integration/{{name}}/issues"
+    "url": "https://github.com/{{github.user}}/{{github.repo}}/issues"
   },
-  "homepage": "https://github.com/Kronos-Integration/{{name}}#readme",
+  "homepage": "https://github.com/{{github.user}}/{{github.repo}}#readme",
   "dependencies": {},
   "devDependencies": {
     "chai": "3.5.0",
