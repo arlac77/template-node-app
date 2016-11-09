@@ -41,6 +41,13 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    },
+    "keywords": {
+      "^kronos-interceptor.+": "kronos-interceptor",
+      "^kronos-service.+": "kronos-service",
+      "^kronos-step.+": "kronos-step",
+      "^kronos-adapter.+": "kronos-step"
     }
   }
+}
 }
