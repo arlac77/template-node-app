@@ -65,8 +65,40 @@
       "icon": "https://www.bithound.io/github/{{github.user}}/{{github.repo}}/badges/score.svg",
       "url": "https://www.bithound.io/github/{{github.user}}/{{github.repo}}"
     }, {
-      "name": "",
-      "icon": "",
-      "url": ""
+      "name": "codecov.io",
+      "icon": "http://codecov.io/github/{{github.user}}/{{github.repo}}/coverage.svg?branch=master",
+      "url": "http://codecov.io/github/{{github.user}}/{{github.repo}}?branch=master"
+    }, {
+      "name": "Code Climate",
+      "icon": "https://codeclimate.com/github/{{github.user}}/{{github.repo}}/badges/gpa.svg",
+      "url": "https://codeclimate.com/github/{{github.user}}/{{github.repo}}"
+    }, {
+      "name": "Known Vulnerabilities",
+      "icon": "https://snyk.io/test/github/{{github.user}}/{{github.repo}}/badge.svg",
+      "url": "https://snyk.io/test/github/{{github.user}}/{{github.repo}}"
+    }, {
+      "name": "GitHub Issues",
+      "icon": "https://img.shields.io/github/issues/{{github.user}}/{{github.repo}}.svg?style=flat-square",
+      "url": "https://github.com/{{github.user}}/{{github.repo}}/issues"
+    }, {
+      "name": "Dependency Status",
+      "icon": "https://david-dm.org/{{github.user}}/{{github.repo}}.svg",
+      "url": "https://david-dm.org/{{github.user}}/{{github.repo}}"
+    }, {
+      "name": "devDependency Status",
+      "icon": "https://david-dm.org/{{github.user}}/{{github.repo}}/dev-status.svg",
+      "url": "https://david-dm.org/{{github.user}}/{{github.repo}}#info=devDependencies"
+    }, {
+      "name": "docs",
+      "icon": "http://inch-ci.org/github/{{github.user}}/{{github.repo}}.svg?branch=master",
+      "url": "http://inch-ci.org/github/{{github.user}}/{{github.repo}}"
+    }, {
+      "name": "downloads",
+      "icon": "http://img.shields.io/npm/dm/{{github.repo}}.svg?style=flat-square",
+      "url": "https://npmjs.org/package/{{github.repo}}"
+    }, {
+      "name": "Commitizen friendly",
+      "icon": "https://img.shields.io/badge/commitizen-friendly-brightgreen.svg",
+      "url": "http://commitizen.github.io/cz-cli/"
     }]
   }
