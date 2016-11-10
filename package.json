@@ -47,6 +47,26 @@
       "^kronos-service.+": "kronos-service",
       "^kronos-step.+": "kronos-step",
       "^kronos-adapter.+": "kronos-step"
-    }
+    },
+    "badges": [{
+      "name": "npm",
+      "icon": "https://img.shields.io/npm/v/{{name}}.svg",
+      "url": "https://www.npmjs.com/package/{{name}}"
+    }, {
+      "name": "semantic-release",
+      "icon": "https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg",
+      "url": "https://github.com/{{github.user}}/{{github.repo}}"
+    }, {
+      "name": "Build Status",
+      "icon": "https://secure.travis-ci.org/{{github.user}}/{{github.repo}}.png",
+      "url": "http://travis-ci.org/{{github.user}}/{{github.repo}}"
+    }, {
+      "name": "bithound",
+      "icon": "https://www.bithound.io/github/{{github.user}}/{{github.repo}}/badges/score.svg",
+      "url": "https://www.bithound.io/github/{{github.user}}/{{github.repo}}"
+    }, {
+      "name": "",
+      "icon": "",
+      "url": ""
+    }]
   }
-}
