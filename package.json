@@ -8,7 +8,7 @@
   "scripts": {
     "cover": "npm run build && node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -u exports tests/*_test.js",
     "build": "node_modules/rollup/bin/rollup --output={{main}} -c -- {{module}}",
-    "docs": "jsdoc2md -l off -t doc/README.hbs -f {{module}} > README.md",
+    "docs": "jsdoc2md -l off -t doc/README.hbs -f src/*.js > README.md",
     "test": "npm run build && node_modules/.bin/mocha tests/*_test.js && markdown-doctest",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
