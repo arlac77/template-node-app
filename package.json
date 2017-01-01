@@ -4,7 +4,7 @@
   "description": "{{description}}",
   "module": "{{module}}",
   "main": "{{main}}",
-  "keywords": [],
+  "keywords": ["npm-package-template"],
   "scripts": {
     "cover": "npm run prepublish && node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -u exports tests/*_test.js",
     "prepublish": "node_modules/rollup/bin/rollup --output={{main}} -c -- {{module}}",
