@@ -7,9 +7,11 @@
   "keywords": [],
   "scripts": {
     "cover": "npm run build && node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -u exports tests/*_test.js",
-    "build": "node_modules/rollup/bin/rollup --output={{main}} -c -- {{module}}",
+    "prepublish": "node_modules/rollup/bin/rollup --output={{main}} -c -- {{module}}",
     "docs": "jsdoc2md -l off -t doc/README.hbs -f src/*.js > README.md",
-    "test": "npm run build && node_modules/.bin/mocha tests/*_test.js && markdown-doctest",
+    "pretest": "npm run prepublish",
+    "posttest": "markdown-doctest",
+    "test": "node_modules/.bin/mocha tests/*_test.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
@@ -24,7 +26,7 @@
   "devDependencies": {
     "cz-conventional-changelog": "^1.2.0",
     "jsdoc-to-markdown": "^2.0.1",
-    "jsdoc" : "-",
+    "jsdoc": "-",
     "markdown-doctest": "^0.9.1",
     "chai": "^3.5.0",
     "mocha": "^3.2.0",
