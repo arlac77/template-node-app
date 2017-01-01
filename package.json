@@ -6,12 +6,12 @@
   "main": "{{main}}",
   "keywords": ["npm-package-template"],
   "scripts": {
-    "cover": "npm run prepublish && istanbul cover node_modules/.bin/_mocha -- -u exports tests/*_test.js",
     "prepublish": "rollup --output={{main}} -c -- {{module}}",
-    "docs": "jsdoc2md -l off -t doc/README.hbs -f src/*.js > README.md",
+    "docs": "jsdoc2md -l off -t doc/README.hbs -f src/*.js >README.md",
     "pretest": "npm run prepublish",
     "posttest": "markdown-doctest",
     "test": "mocha tests/*_test.js",
+    "cover": "npm run prepublish && istanbul cover node_modules/.bin/_mocha -- -u exports tests/*_test.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
