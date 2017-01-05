@@ -52,7 +52,7 @@
   "template": {
     "keywords": {
       "^kronos-interceptor.+": "kronos-interceptor",
-      "^kronos-service.+": "kronos-service",
+      "^kronos-service-(?!manager)": "kronos-service",
       "^kronos-step.+": "kronos-step",
       "^kronos-adapter.+": "kronos-step"
     },
