@@ -6,12 +6,15 @@
   "main": "{{main}}",
   "keywords": ["npm-package-template"],
   "scripts": {
+    "precover": "npm run prepublish",
+    "cover": "nyc npm test",
+
+    "pretest": "npm run prepublish",
+    "test": "mocha tests/*_test.js",
+    "posttest": "markdown-doctest",
+
     "prepublish": "rollup --output={{main}} -c -- {{module}}",
     "docs": "jsdoc2md -l off -t doc/README.hbs -f src/*.js >README.md",
-    "pretest": "npm run prepublish",
-    "posttest": "markdown-doctest",
-    "test": "mocha tests/*_test.js",
-    "cover": "npm run prepublish && istanbul cover node_modules/.bin/_mocha -- -u exports tests/*_test.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
@@ -24,13 +27,14 @@
   "homepage": "https://github.com/{{github.user}}/{{github.repo}}#readme",
   "dependencies": {},
   "devDependencies": {
+    "jsdoc": "-",
+    "istanbul": "-",
     "cz-conventional-changelog": "^1.2.0",
     "jsdoc-to-markdown": "^2.0.1",
-    "jsdoc": "-",
     "markdown-doctest": "^0.9.1",
     "chai": "^3.5.0",
     "mocha": "^3.2.0",
-    "istanbul": "^0.4.5",
+    "nyc": "^10.0.0",
     "rollup": "^0.41.1",
     "rollup-plugin-commonjs": "^7.0.0",
     "rollup-plugin-node-resolve": "^2.0.0",
