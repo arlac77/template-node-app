@@ -53,6 +53,15 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
+  "nyc": {
+    "include": [
+      "dist/**/*.js"
+    ],
+    "reporter": [
+      "lcov"
+    ],
+    "report-dir": "./coverage"
+  },
   "template": {
     "keywords": {
       "^kronos-interceptor.+": "kronos-interceptor",
