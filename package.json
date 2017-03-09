@@ -46,7 +46,7 @@
   }],
   "license": "BSD-2-Clause",
   "engines": {
-    "node": ">=7.7.1"
+    "node": ">=7.7.2"
   },
   "config": {
     "commitizen": {
@@ -73,7 +73,7 @@
       "name": "npm",
       "icon": "https://img.shields.io/npm/v/{{name}}.svg",
       "url": "https://www.npmjs.com/package/{{name}}"
-    },{
+    }, {
       "name": "Greenkeeper",
       "icon": "https://badges.greenkeeper.io/{{github.user}}/{{github.repo}}",
       "url": "https://greenkeeper.io/"
