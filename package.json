@@ -13,7 +13,6 @@
     "pretest": "rollup -c rollup.config.test.js",
     "posttest": "markdown-doctest",
 
-
     "prepublish": "rollup --output={{main}} -c -- {{module}}",
     "docs": "jsdoc2md -l off -t doc/README.hbs -f src/*.js >README.md",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
@@ -38,8 +37,8 @@
     "jsdoc-to-markdown": "^3.0.0",
     "markdown-doctest": "^0.9.1",
     "nyc": "^10.1.2",
-    "rollup": "^0.41.4",
-    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup": "^0.41.5",
+    "rollup-plugin-commonjs": "^7.1.0",
     "rollup-plugin-node-resolve": "^2.0.0",
     "rollup-plugin-babel": "^2.7.1",
     "rollup-plugin-multi-entry": "^2.0.1",
