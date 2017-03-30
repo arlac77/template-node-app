@@ -7,7 +7,7 @@
   "keywords": ["npm-package-template"],
   "scripts": {
     "cover": "nyc ava",
-    "precover": "npm run prepublish",
+    "precover": "rollup -c rollup.config.test.js",
 
     "test": "ava",
     "pretest": "rollup -c rollup.config.test.js",
