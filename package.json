@@ -89,7 +89,7 @@
       "url": "https://www.npmjs.com/package/{{name}}"
     }, {
       "name": "Greenkeeper",
-      "icon": "https://badges.greenkeeper.io/{{github.user}}/{{github.repo}}",
+      "icon": "https://badges.greenkeeper.io/{{github.user}}/{{github.repo}}.svg",
       "url": "https://greenkeeper.io/"
     }, {
       "name": "semantic-release",
