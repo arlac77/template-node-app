@@ -9,12 +9,15 @@ export default {
   plugins: [
     babel({
       babelrc: false,
+      plugins: [
+        'transform-async-generator-functions'
+      ],
       presets: ['es2015-rollup'],
       exclude: 'node_modules/**'
     }),
     multiEntry()
   ],
   format: 'cjs',
-  dest: 'build/test-bundle.js',
+  dest: 'tests/build/bundle.js',
   sourceMap: true
 };
