@@ -14,7 +14,7 @@
     "posttest": "markdown-doctest",
 
     "prepublish": "rollup --output={{main}} -c -- {{module}}",
-    "docs": "jsdoc2md -l off -t doc/README.hbs -f src/*.js >README.md",
+    "docs": "jsdoc2md --configure doc/jsdoc.json -l off -t doc/README.hbs -f src/*.js >README.md",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
@@ -34,6 +34,7 @@
     "mocha-lcov-reporter": "-",
     "cz-conventional-changelog": "^2.0.0",
     "jsdoc-to-markdown": "^3.0.0",
+    "jsdoc-babel": "^0.3.0",
     "markdown-doctest": "^0.9.1",
     "nyc": "^10.3.0",
     "ava": "^0.19.1",
