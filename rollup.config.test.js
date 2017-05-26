@@ -9,10 +9,7 @@ export default {
   plugins: [
     babel({
       babelrc: false,
-      plugins: [
-        'transform-async-generator-functions'
-      ],
-      presets: ['es2015-rollup'],
+      presets: ['stage-3'],
       exclude: 'node_modules/**'
     }),
     multiEntry()
