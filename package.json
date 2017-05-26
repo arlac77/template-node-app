@@ -31,6 +31,7 @@
     "istanbul": "-",
     "mocha": "-",
     "chai": "-",
+    "babel-plugin-transform-async-generator-functions": "-",
     "mocha-lcov-reporter": "-",
     "cz-conventional-changelog": "^2.0.0",
     "jsdoc-to-markdown": "^3.0.0",
