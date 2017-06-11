@@ -31,9 +31,9 @@
     "istanbul": "-",
     "mocha": "-",
     "chai": "-",
+    "cz-conventional-changelog": "-",
     "babel-plugin-transform-async-generator-functions": "-",
     "mocha-lcov-reporter": "-",
-    "cz-conventional-changelog": "^2.0.0",
     "jsdoc-to-markdown": "^3.0.0",
     "jsdoc-babel": "^0.3.0",
     "markdown-doctest": "^0.9.1",
@@ -56,11 +56,6 @@
   "license": "BSD-2-Clause",
   "engines": {
     "node": ">=8.1.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   },
   "xo": {
     "space": true
@@ -157,5 +152,8 @@
       "icon": "https://img.shields.io/badge/commitizen-friendly-brightgreen.svg",
       "url": "http://commitizen.github.io/cz-cli/"
     }]
+  },
+  "config": {
+    "commitizen": "--delete--"
   }
 }
