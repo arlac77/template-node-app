@@ -153,7 +153,5 @@
       "url": "http://commitizen.github.io/cz-cli/"
     }]
   },
-  "config": {
-    "commitizen": "--delete--"
-  }
+  "config": "--delete--"
 }
