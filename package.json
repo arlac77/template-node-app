@@ -6,6 +6,8 @@
   "main": "{{main}}",
   "keywords": ["npm-package-template"],
   "scripts": {
+    "prepublish": "-",
+
     "cover": "nyc ava",
     "precover": "rollup -c tests/rollup.config.js",
 
