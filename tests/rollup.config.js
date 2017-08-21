@@ -3,6 +3,11 @@ import multiEntry from 'rollup-plugin-multi-entry';
 
 export default {
   input: 'tests/**/*-test.js',
+  output: {
+    file: 'build/test-bundle.js',
+    format: 'cjs',
+    sourcemap: true
+  },
   external: ['ava'],
   plugins: [
     babel({
@@ -11,10 +16,5 @@ export default {
       exclude: 'node_modules/**'
     }),
     multiEntry()
-  ],
-  output: {
-    file: 'build/test-bundle.js',
-    format: 'cjs',
-    sourcemap: true
-  }
+  ]
 };
