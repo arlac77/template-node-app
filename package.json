@@ -16,8 +16,10 @@
     "posttest": "npm run prepare && markdown-doctest",
 
     "prepare": "rollup -c",
-    "docs": "jsdoc2md --configure doc/jsdoc.json -l off -t doc/README.hbs -f src/*.js >README.md",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "docs":
+      "jsdoc2md --configure doc/jsdoc.json -l off -t doc/README.hbs -f src/*.js >README.md",
+    "semantic-release":
+      "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
@@ -47,7 +49,7 @@
     "rollup-plugin-babel": "^3.0.2",
     "rollup-plugin-multi-entry": "^2.0.1",
     "babel-preset-stage-3": "^6.24.1",
-    "semantic-release": "^8.0.1",
+    "semantic-release": "^8.0.3",
     "xo": "^0.19.0"
   },
   "contributors": [
@@ -96,52 +98,63 @@
       },
       {
         "name": "Greenkeeper",
-        "icon": "https://badges.greenkeeper.io/{{github.user}}/{{github.repo}}.svg",
+        "icon":
+          "https://badges.greenkeeper.io/{{github.user}}/{{github.repo}}.svg",
         "url": "https://greenkeeper.io/"
       },
       {
         "name": "semantic-release",
-        "icon": "https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg",
+        "icon":
+          "https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg",
         "url": "https://github.com/{{github.user}}/{{github.repo}}"
       },
       {
         "name": "Build Status",
-        "icon": "https://secure.travis-ci.org/{{github.user}}/{{github.repo}}.png",
+        "icon":
+          "https://secure.travis-ci.org/{{github.user}}/{{github.repo}}.png",
         "url": "http://travis-ci.org/{{github.user}}/{{github.repo}}"
       },
       {
         "name": "bithound",
-        "icon": "https://www.bithound.io/github/{{github.user}}/{{github.repo}}/badges/score.svg",
+        "icon":
+          "https://www.bithound.io/github/{{github.user}}/{{github.repo}}/badges/score.svg",
         "url": "https://www.bithound.io/github/{{github.user}}/{{github.repo}}"
       },
       {
         "name": "codecov.io",
-        "icon": "http://codecov.io/github/{{github.user}}/{{github.repo}}/coverage.svg?branch=master",
-        "url": "http://codecov.io/github/{{github.user}}/{{github.repo}}?branch=master"
+        "icon":
+          "http://codecov.io/github/{{github.user}}/{{github.repo}}/coverage.svg?branch=master",
+        "url":
+          "http://codecov.io/github/{{github.user}}/{{github.repo}}?branch=master"
       },
       {
         "name": "Coverage Status",
-        "icon": "https://coveralls.io/repos/{{github.user}}/{{github.repo}}/badge.svg",
+        "icon":
+          "https://coveralls.io/repos/{{github.user}}/{{github.repo}}/badge.svg",
         "url": "https://coveralls.io/r/{{github.user}}/{{github.repo}}"
       },
       {
         "name": "Code Climate",
-        "icon": "https://codeclimate.com/github/{{github.user}}/{{github.repo}}/badges/gpa.svg",
+        "icon":
+          "https://codeclimate.com/github/{{github.user}}/{{github.repo}}/badges/gpa.svg",
         "url": "https://codeclimate.com/github/{{github.user}}/{{github.repo}}"
       },
       {
         "name": "Known Vulnerabilities",
-        "icon": "https://snyk.io/test/github/{{github.user}}/{{github.repo}}/badge.svg",
+        "icon":
+          "https://snyk.io/test/github/{{github.user}}/{{github.repo}}/badge.svg",
         "url": "https://snyk.io/test/github/{{github.user}}/{{github.repo}}"
       },
       {
         "name": "GitHub Issues",
-        "icon": "https://img.shields.io/github/issues/{{github.user}}/{{github.repo}}.svg?style=flat-square",
+        "icon":
+          "https://img.shields.io/github/issues/{{github.user}}/{{github.repo}}.svg?style=flat-square",
         "url": "https://github.com/{{github.user}}/{{github.repo}}/issues"
       },
       {
         "name": "Stories in Ready",
-        "icon": "https://badge.waffle.io/{{github.user}}/{{github.repo}}.svg?label=ready&title=Ready",
+        "icon":
+          "https://badge.waffle.io/{{github.user}}/{{github.repo}}.svg?label=ready&title=Ready",
         "url": "http://waffle.io/{{github.user}}/{{github.repo}}"
       },
       {
@@ -151,12 +164,15 @@
       },
       {
         "name": "devDependency Status",
-        "icon": "https://david-dm.org/{{github.user}}/{{github.repo}}/dev-status.svg",
-        "url": "https://david-dm.org/{{github.user}}/{{github.repo}}#info=devDependencies"
+        "icon":
+          "https://david-dm.org/{{github.user}}/{{github.repo}}/dev-status.svg",
+        "url":
+          "https://david-dm.org/{{github.user}}/{{github.repo}}#info=devDependencies"
       },
       {
         "name": "docs",
-        "icon": "http://inch-ci.org/github/{{github.user}}/{{github.repo}}.svg?branch=master",
+        "icon":
+          "http://inch-ci.org/github/{{github.user}}/{{github.repo}}.svg?branch=master",
         "url": "http://inch-ci.org/github/{{github.user}}/{{github.repo}}"
       },
       {
@@ -166,12 +182,14 @@
       },
       {
         "name": "downloads",
-        "icon": "http://img.shields.io/npm/dm/{{github.repo}}.svg?style=flat-square",
+        "icon":
+          "http://img.shields.io/npm/dm/{{github.repo}}.svg?style=flat-square",
         "url": "https://npmjs.org/package/{{github.repo}}"
       },
       {
         "name": "Commitizen friendly",
-        "icon": "https://img.shields.io/badge/commitizen-friendly-brightgreen.svg",
+        "icon":
+          "https://img.shields.io/badge/commitizen-friendly-brightgreen.svg",
         "url": "http://commitizen.github.io/cz-cli/"
       }
     ]
