@@ -77,12 +77,20 @@
   },
   "template": {
     "files": [
-      { "type": "package.json", "pattern": "**/package.json" },
-      { "type": "rollup.conf.json", "pattern": "**/rollup.conf.js" },
-      { "type": "LICENSE", "pattern": "LICENSE" },
-      { "type": "lineset", "pattern": [".gitignore", ".npmignore"] },
-      { "type": "travis", "pattern": ".travis.yml" },
-      { "type": "copy-if-missing", "pattern": "**/*" }
+      { "merger": "Package", "pattern": "**/package.json" },
+      { "merger": "Rollup", "pattern": "**/rollup.conf.js" },
+      { "merger": "License", "pattern": "LICENSE" },
+      {
+        "merger": "MergeAndRemoveLineSet",
+        "pattern": ".gitignore",
+        "options": { "message": "chore(git)" }
+      },
+      {
+        "merger": "MergeAndRemoveLineSet",
+        "pattern": ".npmignore",
+        "options": { "message": "chore(npm)" }
+      },
+      { "merger": "ReplaceIfEmpty", "pattern": "**/*" }
     ],
     "keywords": {
       "^kronos-interceptor.+": "kronos-interceptor",
