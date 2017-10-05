@@ -66,12 +66,12 @@
     "space": true
   },
   "ava": {
-    "files": ["build/test-bundle.js"],
+    "files": ["build/*-test.js"],
     "presets": ["stage-3"],
     "require": ["babel-register"]
   },
   "nyc": {
-    "include": ["build/test-bundle.js"],
+    "include": ["build/*-test.js"],
     "reporter": ["lcov"],
     "report-dir": "./build/coverage"
   },
