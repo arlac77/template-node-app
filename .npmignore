@@ -1,4 +1,6 @@
 - rollup.config.test.js
+- .DS_Store
+- .npmrc
 coverage
 node_modules
 build
@@ -6,11 +8,9 @@ tests
 doc
 *.log
 *.tmp
-.DS_Store
 .test
 .tmp
 .gitignore
-.npmrc
 .travis.yml
 .npmignore
 .vscode
