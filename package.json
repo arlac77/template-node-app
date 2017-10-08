@@ -84,12 +84,12 @@
       {
         "merger": "MergeAndRemoveLineSet",
         "pattern": ".gitignore",
-        "options": { "message": "chore(git): update .gitignore from template" }
+        "options": { "message": "chore(git): update {{path}} from template" }
       },
       {
         "merger": "MergeAndRemoveLineSet",
         "pattern": ".npmignore",
-        "options": { "message": "chore(npm): update .npmignore from template" }
+        "options": { "message": "chore(npm): update {{path}} from template" }
       },
       { "merger": "ReplaceIfEmpty", "pattern": "**/*" }
     ],
