@@ -80,7 +80,7 @@
       { "merger": "Package", "pattern": "**/package.json" },
       { "merger": "Travis", "pattern": ".travis.yml" },
       { "merger": "Readme", "pattern": "**/README.*" },
-      { "merger": "Rollup", "pattern": "**/rollup.conf.js" },
+      { "merger": "Rollup", "pattern": "**/rollup.config.js" },
       { "merger": "License", "pattern": "LICENSE" },
       {
         "merger": "MergeAndRemoveLineSet",
