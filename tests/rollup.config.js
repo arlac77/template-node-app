@@ -12,7 +12,7 @@ export default {
   plugins: [
     babel({
       babelrc: false,
-      presets: ['stage-3'],
+      presets: ['latest'],
       exclude: 'node_modules/**'
     }),
     multiEntry()
