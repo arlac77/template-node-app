@@ -145,10 +145,10 @@
         "url": "https://coveralls.io/r/{{github.user}}/{{github.repo}}"
       },
       {
-        "name": "Code Climate",
-        "icon":
-          "https://codeclimate.com/github/{{github.user}}/{{github.repo}}/badges/gpa.svg",
-        "url": "https://codeclimate.com/github/{{github.user}}/{{github.repo}}"
+        "name": "Maintainability",
+        "icon": "https://api.codeclimate.com/v1/badges/{{id}}/maintainability",
+        "url":
+          "https://codeclimate.com/github/{{github.user}}/{{github.repo}}/maintainability"
       },
       {
         "name": "Known Vulnerabilities",
