@@ -10,7 +10,7 @@ export default {
   plugins: [
     babel({
       babelrc: false,
-      presets: ['latest'],
+      presets: ['env'],
       exclude: 'node_modules/**'
     })
   ]
