@@ -8,7 +8,7 @@
   "scripts": {
     "prepublish": "-",
 
-    "cover": "nyc ava",
+    "cover": "nyc --temp-directory build/nyc ava",
     "precover": "rollup -c tests/rollup.config.js",
 
     "test": "ava",
