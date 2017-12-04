@@ -119,6 +119,11 @@
         "url": "https://github.com/{{github.user}}/{{github.repo}}"
       },
       {
+        "name": "styled with prettier",
+        "icon": "https://img.shields.io/badge/styled_with-prettier-ff69b4.svg",
+        "url": "https://github.com/prettier/prettier"
+      },
+      {
         "name": "Build Status",
         "icon":
           "https://secure.travis-ci.org/{{github.user}}/{{github.repo}}.png",
