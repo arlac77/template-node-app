@@ -28,6 +28,8 @@
   "homepage": "https://github.com/{{github.user}}/{{github.repo}}#readme",
   "dependencies": {},
   "devDependencies": {
+    "jsdoc-babel": "-",
+    "jsdoc-to-markdown": "-",
     "jsdoc": "-",
     "istanbul": "-",
     "mocha": "-",
