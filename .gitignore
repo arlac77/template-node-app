@@ -1,6 +1,6 @@
 - out
 - coverage
-package-lock.json
+- package-lock.json
 node_modules
 build
 dist
