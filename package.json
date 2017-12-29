@@ -75,7 +75,11 @@
   },
   "template": {
     "files": [
-      { "merger": "Package", "pattern": "**/package.json" },
+      {
+        "merger": "Package",
+        "pattern": "**/package.json",
+        "actions": [{ "path": "nyc.report-dir", "op": "replace" }]
+      },
       { "merger": "Travis", "pattern": ".travis.yml" },
       { "merger": "Readme", "pattern": "README.md" },
       { "merger": "Rollup", "pattern": "**/rollup.config.js" },
