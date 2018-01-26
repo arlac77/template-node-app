@@ -20,14 +20,6 @@
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/{{github.user}}/{{github.repo}}.git"
-  },
-  "bugs": {
-    "url": "https://github.com/{{github.user}}/{{github.repo}}/issues"
-  },
-  "homepage": "https://github.com/{{github.user}}/{{github.repo}}#readme",
   "dependencies": {},
   "devDependencies": {
     "jsdoc-babel": "-",
