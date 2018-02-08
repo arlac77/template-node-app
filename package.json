@@ -8,15 +8,12 @@
   "scripts": {
     "cover": "nyc --temp-directory build/nyc ava",
     "precover": "rollup -c tests/rollup.config.js",
-
     "test": "ava",
     "pretest": "rollup -c tests/rollup.config.js",
     "posttest": "npm run prepare && markdown-doctest",
-
     "prepare": "rollup -c",
     "docs": "documentation readme {{module}} --section=API",
     "lint": "documentation lint {{module}}",
-
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
@@ -42,7 +39,7 @@
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-multi-entry": "^2.0.2",
     "babel-preset-env": "^1.6.1",
-    "semantic-release": "^13.0.2",
+    "semantic-release": "^13.1.4",
     "travis-deploy-once": "^4.3.4"
   },
   "contributors": [
@@ -74,24 +71,48 @@
         "merger": "Package",
         "pattern": "**/package.json",
         "options": {
-          "actions": [{ "path": "$.nyc['report-dir']", "op": "replace" }]
+          "actions": [
+            {
+              "path": "$.nyc['report-dir']",
+              "op": "replace"
+            }
+          ]
         }
       },
-      { "merger": "Travis", "pattern": ".travis.yml" },
-      { "merger": "Readme", "pattern": "README.md" },
-      { "merger": "Rollup", "pattern": "**/rollup.config.js" },
-      { "merger": "License", "pattern": "LICENSE" },
+      {
+        "merger": "Travis",
+        "pattern": ".travis.yml"
+      },
+      {
+        "merger": "Readme",
+        "pattern": "README.md"
+      },
+      {
+        "merger": "Rollup",
+        "pattern": "**/rollup.config.js"
+      },
+      {
+        "merger": "License",
+        "pattern": "LICENSE"
+      },
       {
         "merger": "MergeAndRemoveLineSet",
         "pattern": ".gitignore",
-        "options": { "message": "chore(git): update {{path}} from template" }
+        "options": {
+          "message": "chore(git): update {{path}} from template"
+        }
       },
       {
         "merger": "MergeAndRemoveLineSet",
         "pattern": ".npmignore",
-        "options": { "message": "chore(npm): update {{path}} from template" }
+        "options": {
+          "message": "chore(npm): update {{path}} from template"
+        }
       },
-      { "merger": "ReplaceIfEmpty", "pattern": "**/*" }
+      {
+        "merger": "ReplaceIfEmpty",
+        "pattern": "**/*"
+      }
     ],
     "keywords": {
       "^kronos-interceptor.+": "kronos-interceptor",
