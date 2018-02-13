@@ -31,7 +31,7 @@
     "mocha-lcov-reporter": "-",
     "documentation": "^5.4.0",
     "markdown-doctest": "^0.9.1",
-    "nyc": "^11.4.1",
+    "nyc": "^11.5.0",
     "ava": "^0.25.0",
     "rollup": "^0.55.5",
     "rollup-plugin-commonjs": "^8.3.0",
