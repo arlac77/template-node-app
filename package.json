@@ -29,12 +29,12 @@
     "cz-conventional-changelog": "-",
     "babel-plugin-transform-async-generator-functions": "-",
     "mocha-lcov-reporter": "-",
-    "documentation": "^5.4.0",
+    "documentation": "^6.0.0",
     "markdown-doctest": "^0.9.1",
     "nyc": "^11.5.0",
     "ava": "^0.25.0",
-    "rollup": "^0.56.2",
-    "rollup-plugin-commonjs": "^8.3.0",
+    "rollup": "^0.56.5",
+    "rollup-plugin-commonjs": "^9.0.0",
     "rollup-plugin-node-resolve": "^3.2.0",
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-multi-entry": "^2.0.2",
@@ -50,7 +50,7 @@
   ],
   "license": "BSD-2-Clause",
   "engines": {
-    "node": ">=8.9.4"
+    "node": ">=8.10"
   },
   "xo": {
     "space": true
