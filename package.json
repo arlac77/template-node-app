@@ -50,7 +50,7 @@
   ],
   "license": "BSD-2-Clause",
   "engines": {
-    "node": ">=8.10"
+    "node": ">=8.11"
   },
   "xo": {
     "space": true
