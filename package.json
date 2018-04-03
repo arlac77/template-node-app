@@ -62,7 +62,7 @@
   },
   "nyc": {
     "include": ["build/*-test.js"],
-    "reporter": ["lcov"],
+    "reporter": ["lcov", "text"],
     "report-dir": "./build/coverage"
   },
   "template": {
