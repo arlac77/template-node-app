@@ -29,7 +29,7 @@
     "cz-conventional-changelog": "-",
     "babel-plugin-transform-async-generator-functions": "-",
     "mocha-lcov-reporter": "-",
-    "documentation": "^6.2.0",
+    "documentation": "^6.3.0",
     "markdown-doctest": "^0.9.1",
     "nyc": "^11.7.1",
     "ava": "^0.25.0",
