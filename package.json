@@ -227,7 +227,8 @@
       }
     ],
     "usedBy": [
-      "arlac77/config-expander"
+      "arlac77/config-expander",
+      "arlac77/pratt-parser"
     ]
   }
 }
