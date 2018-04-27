@@ -229,14 +229,15 @@
       }
     ],
     "usedBy": [
-      "arlac77/config-expander",
-      "arlac77/pratt-parser",
-      "arlac77/uti",
-      "arlac77/npm-package-walker",
-      "arlac77/repository-provider",
-      "arlac77/github-repository-provider",
       "arlac77/bitbucket-repository-provider",
-      "arlac77/npm-template-sync-github-hook"
+      "arlac77/config-expander",
+      "arlac77/github-repository-provider",
+      "arlac77/mock-repository-provider",
+      "arlac77/npm-package-walker",
+      "arlac77/npm-template-sync-github-hook",
+      "arlac77/pratt-parser",
+      "arlac77/repository-provider",
+      "arlac77/uti"
     ]
   }
 }
