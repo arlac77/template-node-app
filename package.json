@@ -238,6 +238,7 @@
       "arlac77/npm-template-sync-github-hook",
       "arlac77/pratt-parser",
       "arlac77/repository-provider",
+      "arlac77/rpm-codec",
       "arlac77/svn-repository-provider",
       "arlac77/uti"
     ]
