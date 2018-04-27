@@ -233,7 +233,8 @@
       "arlac77/pratt-parser",
       "arlac77/uti",
       "arlac77/npm-package-walker",
-      "arlac77/repository-provider"
+      "arlac77/repository-provider",
+      "arlac77/github-repository-provider"
     ]
   }
 }
