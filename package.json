@@ -230,8 +230,8 @@
     ],
     "usedBy": [
       "arlac77/bitbucket-repository-provider",
+      "arlac77/bocf",
       "arlac77/config-expander",
-      "arlac77/expression-expander",
       "arlac77/gd-playground",
       "arlac77/github-repository-provider",
       "arlac77/mock-repository-provider",
