@@ -229,6 +229,7 @@
       }
     ],
     "usedBy": [
+      "Kronos-Integration/kronos-interceptor",
       "arlac77/bitbucket-repository-provider",
       "arlac77/config-expander",
       "arlac77/gd-playground",
