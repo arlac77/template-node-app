@@ -232,7 +232,8 @@
       "arlac77/config-expander",
       "arlac77/pratt-parser",
       "arlac77/uti",
-      "arlac77/npm-package-walker"
+      "arlac77/npm-package-walker",
+      "arlac77/repository-provider"
     ]
   }
 }
