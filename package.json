@@ -229,7 +229,6 @@
       }
     ],
     "usedBy": [
-      "arlac77/aggregation-repository-provider",
       "arlac77/bitbucket-repository-provider",
       "arlac77/config-expander",
       "arlac77/gd-playground",
@@ -239,6 +238,7 @@
       "arlac77/npm-template-sync-github-hook",
       "arlac77/pratt-parser",
       "arlac77/repository-provider",
+      "arlac77/rpm-codec",
       "arlac77/svn-repository-provider",
       "arlac77/uti"
     ]
