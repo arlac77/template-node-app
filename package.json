@@ -235,7 +235,8 @@
       "arlac77/npm-package-walker",
       "arlac77/repository-provider",
       "arlac77/github-repository-provider",
-      "arlac77/bitbucket-repository-provider"
+      "arlac77/bitbucket-repository-provider",
+      "arlac77/npm-template-sync-github-hook"
     ]
   }
 }
