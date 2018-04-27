@@ -232,6 +232,7 @@
       "arlac77/bitbucket-repository-provider",
       "arlac77/config-expander",
       "arlac77/github-repository-provider",
+      "arlac77/named-conf",
       "arlac77/npm-package-walker",
       "arlac77/npm-template-sync-github-hook",
       "arlac77/pratt-parser",
