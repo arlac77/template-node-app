@@ -230,12 +230,12 @@
     ],
     "usedBy": [
       "Kronos-Integration/kronos-interceptor",
-      "arlac77/aggregation-repository-provider",
       "arlac77/bitbucket-repository-provider",
       "arlac77/config-expander",
       "arlac77/gd-playground",
       "arlac77/github-repository-provider",
       "arlac77/log-stream-analyser",
+      "arlac77/loglevel-mixin",
       "arlac77/mock-repository-provider",
       "arlac77/npm-package-walker",
       "arlac77/npm-template-sync-github-hook",
