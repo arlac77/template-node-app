@@ -236,7 +236,7 @@
       "arlac77/github-repository-provider",
       "arlac77/log-stream-analyser",
       "arlac77/mock-repository-provider",
-      "arlac77/model",
+      "arlac77/model-attributes",
       "arlac77/npm-package-walker",
       "arlac77/npm-template-sync-github-hook",
       "arlac77/pratt-parser",
