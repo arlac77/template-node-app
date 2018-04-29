@@ -230,7 +230,7 @@
     ],
     "usedBy": [
       "Kronos-Integration/kronos-interceptor",
-      "Kronos-Integration/kronos-interceptor-decode-json",
+      "Kronos-Integration/kronos-interceptor-http-request",
       "arlac77/bitbucket-repository-provider",
       "arlac77/config-expander",
       "arlac77/gd-playground",
