@@ -238,13 +238,13 @@
       "arlac77/local-repository-provider",
       "arlac77/log-stream-analyser",
       "arlac77/mock-repository-provider",
-      "arlac77/model-attributes",
       "arlac77/node-symatem",
       "arlac77/npm-package-walker",
       "arlac77/npm-template-sync-github-hook",
       "arlac77/pratt-parser",
       "arlac77/repository-provider",
       "arlac77/rpm-codec",
+      "arlac77/rtsp-archive",
       "arlac77/svn-repository-provider",
       "arlac77/uti"
     ]
