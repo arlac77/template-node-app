@@ -233,7 +233,6 @@
       "Kronos-Integration/kronos-interceptor-http-request",
       "arlac77/bitbucket-repository-provider",
       "arlac77/config-expander",
-      "arlac77/fs-resolver-fs",
       "arlac77/gd-playground",
       "arlac77/github-repository-provider",
       "arlac77/local-repository-provider",
@@ -245,6 +244,7 @@
       "arlac77/pratt-parser",
       "arlac77/repository-provider",
       "arlac77/rpm-codec",
+      "arlac77/sftp-resolver-fs",
       "arlac77/svn-repository-provider",
       "arlac77/uti"
     ]
