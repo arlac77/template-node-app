@@ -232,6 +232,7 @@
       "Kronos-Integration/kronos-interceptor",
       "Kronos-Integration/kronos-interceptor-http-request",
       "Kronos-Integration/kronos-interceptor-stream-obj2string",
+      "arlac77/aggregation-repository-provider",
       "arlac77/bitbucket-repository-provider",
       "arlac77/config-expander",
       "arlac77/gd-playground",
