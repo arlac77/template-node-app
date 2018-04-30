@@ -250,6 +250,7 @@
       "arlac77/pratt-parser",
       "arlac77/repository-provider",
       "arlac77/rpm-codec",
+      "arlac77/statetransition-mixin",
       "arlac77/svn-repository-provider",
       "arlac77/url-cmd",
       "arlac77/uti"
