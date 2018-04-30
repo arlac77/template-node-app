@@ -245,6 +245,7 @@
       "arlac77/log-stream-analyser",
       "arlac77/loglevel-mixin",
       "arlac77/mock-repository-provider",
+      "arlac77/mqtt-timeseries-leveldb",
       "arlac77/node-symatem",
       "arlac77/npm-package-walker",
       "arlac77/npm-template-sync-github-hook",
