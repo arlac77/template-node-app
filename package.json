@@ -241,6 +241,7 @@
       "Kronos-Integration/kronos-service-koa",
       "Kronos-Integration/kronos-service-logger-gelf",
       "Kronos-Integration/kronos-service-manager",
+      "Kronos-Integration/kronos-service-registry",
       "arlac77/aggregation-repository-provider",
       "arlac77/bitbucket-repository-provider",
       "arlac77/bocf",
