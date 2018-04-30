@@ -234,6 +234,7 @@
       "Kronos-Integration/kronos-interceptor-stream-obj2string",
       "arlac77/bitbucket-repository-provider",
       "arlac77/config-expander",
+      "arlac77/expression-expander",
       "arlac77/gd-playground",
       "arlac77/github-repository-provider",
       "arlac77/local-repository-provider",
@@ -245,7 +246,6 @@
       "arlac77/pratt-parser",
       "arlac77/repository-provider",
       "arlac77/rpm-codec",
-      "arlac77/scope-reporter",
       "arlac77/svn-repository-provider",
       "arlac77/uti"
     ]
