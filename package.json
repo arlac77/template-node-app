@@ -260,6 +260,7 @@
       "arlac77/scope-reporter",
       "arlac77/sftp-resolver-fs",
       "arlac77/statetransition-mixin",
+      "arlac77/svn-dav-fs",
       "arlac77/svn-repository-provider",
       "arlac77/symatem-infrastructure",
       "arlac77/timeseries-sqlite2leveldb",
