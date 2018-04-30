@@ -238,6 +238,7 @@
       "arlac77/expression-expander",
       "arlac77/gd-playground",
       "arlac77/github-repository-provider",
+      "arlac77/kv-reader",
       "arlac77/local-repository-provider",
       "arlac77/log-stream-analyser",
       "arlac77/mock-repository-provider",
@@ -247,7 +248,6 @@
       "arlac77/pratt-parser",
       "arlac77/repository-provider",
       "arlac77/rpm-codec",
-      "arlac77/svn-dav-fs",
       "arlac77/svn-repository-provider",
       "arlac77/url-cmd",
       "arlac77/uti"
