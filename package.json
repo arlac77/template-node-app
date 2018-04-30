@@ -240,6 +240,7 @@
       "Kronos-Integration/kronos-service-health-check",
       "Kronos-Integration/kronos-service-koa",
       "Kronos-Integration/kronos-service-logger-gelf",
+      "Kronos-Integration/kronos-service-manager",
       "arlac77/aggregation-repository-provider",
       "arlac77/bitbucket-repository-provider",
       "arlac77/bocf",
