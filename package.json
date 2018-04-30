@@ -242,6 +242,7 @@
       "arlac77/github-repository-provider",
       "arlac77/local-repository-provider",
       "arlac77/log-stream-analyser",
+      "arlac77/loglevel-mixin",
       "arlac77/mock-repository-provider",
       "arlac77/node-symatem",
       "arlac77/npm-package-walker",
