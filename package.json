@@ -265,6 +265,7 @@
       "arlac77/svn-repository-provider",
       "arlac77/symatem-infrastructure",
       "arlac77/timeseries-sqlite2leveldb",
+      "arlac77/transform-stream-tokens",
       "arlac77/url-cmd",
       "arlac77/url-resolver-fs",
       "arlac77/uti"
