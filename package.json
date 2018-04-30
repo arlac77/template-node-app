@@ -249,6 +249,7 @@
       "Kronos-Integration/kronos-service-manager",
       "Kronos-Integration/kronos-service-registry",
       "Kronos-Integration/kronos-service-uti",
+      "Kronos-Integration/kronos-step",
       "arlac77/aggregation-repository-provider",
       "arlac77/bitbucket-repository-provider",
       "arlac77/bocf",
