@@ -230,6 +230,7 @@
     ],
     "usedBy": [
       "Kronos-Integration/kronos-cluster-node",
+      "Kronos-Integration/kronos-endpoint",
       "Kronos-Integration/kronos-interceptor",
       "Kronos-Integration/kronos-interceptor-decode-json",
       "Kronos-Integration/kronos-interceptor-http-request",
