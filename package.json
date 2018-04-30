@@ -236,6 +236,7 @@
       "Kronos-Integration/kronos-interceptor-stream-obj2string",
       "Kronos-Integration/kronos-service",
       "Kronos-Integration/kronos-service-admin",
+      "Kronos-Integration/kronos-service-consul",
       "arlac77/aggregation-repository-provider",
       "arlac77/bitbucket-repository-provider",
       "arlac77/bocf",
