@@ -252,6 +252,7 @@
       "Kronos-Integration/kronos-step",
       "Kronos-Integration/kronos-step-aggregate",
       "Kronos-Integration/kronos-step-archive-arangodb",
+      "Kronos-Integration/kronos-step-archive-tar",
       "arlac77/aggregation-repository-provider",
       "arlac77/bitbucket-repository-provider",
       "arlac77/bocf",
