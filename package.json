@@ -257,6 +257,7 @@
       "Kronos-Integration/kronos-step-passthrough",
       "Kronos-Integration/kronos-step-stdio",
       "Kronos-Integration/kronos-step-system",
+      "Kronos-Integration/test-interceptor",
       "arlac77/aggregation-repository-provider",
       "arlac77/bitbucket-repository-provider",
       "arlac77/bocf",
