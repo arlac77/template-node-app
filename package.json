@@ -134,11 +134,6 @@
               "url": "http://travis-ci.org/{{github.user}}/{{github.repo}}"
             },
             {
-              "name": "bithound",
-              "icon": "https://www.bithound.io/github/{{github.user}}/{{github.repo}}/badges/score.svg",
-              "url": "https://www.bithound.io/github/{{github.user}}/{{github.repo}}"
-            },
-            {
               "name": "codecov.io",
               "icon": "http://codecov.io/github/{{github.user}}/{{github.repo}}/coverage.svg?branch=master",
               "url": "http://codecov.io/github/{{github.user}}/{{github.repo}}?branch=master"
