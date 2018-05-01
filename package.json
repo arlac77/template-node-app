@@ -229,6 +229,7 @@
       }
     ],
     "usedBy": [
+      "Kronos-Integration/interceptor-gzip",
       "Kronos-Integration/kronos-cluster-node",
       "Kronos-Integration/kronos-endpoint",
       "Kronos-Integration/kronos-flow",
@@ -253,6 +254,11 @@
       "Kronos-Integration/kronos-step-aggregate",
       "Kronos-Integration/kronos-step-archive-arangodb",
       "Kronos-Integration/kronos-step-archive-tar",
+      "Kronos-Integration/kronos-step-passthrough",
+      "Kronos-Integration/kronos-step-stdio",
+      "Kronos-Integration/kronos-step-system",
+      "Kronos-Integration/test-interceptor",
+      "Kronos-Integration/test-step",
       "arlac77/aggregation-repository-provider",
       "arlac77/bitbucket-repository-provider",
       "arlac77/bocf",
