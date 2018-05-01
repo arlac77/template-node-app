@@ -229,6 +229,7 @@
       }
     ],
     "usedBy": [
+      "Kronos-Integration/interceptor-gzip",
       "Kronos-Integration/kronos-cluster-node",
       "Kronos-Integration/kronos-endpoint",
       "Kronos-Integration/kronos-flow",
