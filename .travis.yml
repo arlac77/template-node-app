@@ -5,7 +5,8 @@ node_js:
   - -6
   - -7
   - -9
-  - 10
+  - -10
+  - 10.1
 sudo: false
 branches:
   only:
