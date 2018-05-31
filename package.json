@@ -128,7 +128,7 @@
             {
               "name": "install size",
               "icon":
-                "https://packagephobia.now.sh/badge?p={{name}}/{@version}",
+                "https://packagephobia.now.sh/badge?p={{name}}/@{{version}}",
               "url":
                 "https://packagephobia.now.sh/result?p={{name}}@{{version}}"
             },
