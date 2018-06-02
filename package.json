@@ -4,6 +4,9 @@
   "description": "{{description}}",
   "module": "{{module}}",
   "main": "{{main}}",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": ["npm-package-template"],
   "scripts": {
     "cover": "nyc --temp-directory build/nyc ava",
