@@ -7,7 +7,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "keywords": ["npm-package-template"],
+  "keywords": [
+    "npm-package-template"
+  ],
   "scripts": {
     "cover": "nyc --temp-directory build/nyc ava",
     "precover": "rollup -c tests/rollup.config.js",
@@ -61,13 +63,24 @@
     "space": true
   },
   "ava": {
-    "files": ["build/*-test.js"],
-    "presets": ["env"],
-    "require": ["babel-register"]
+    "files": [
+      "build/*-test.js"
+    ],
+    "presets": [
+      "env"
+    ],
+    "require": [
+      "babel-register"
+    ]
   },
   "nyc": {
-    "include": ["build/*-test.js"],
-    "reporter": ["lcov", "text"],
+    "include": [
+      "build/*-test.js"
+    ],
+    "reporter": [
+      "lcov",
+      "text"
+    ],
     "report-dir": "./build/coverage"
   },
   "template": {
@@ -106,91 +119,72 @@
             },
             {
               "name": "Greenkeeper",
-              "icon":
-                "https://badges.greenkeeper.io/{{github.user}}/{{github.repo}}.svg",
+              "icon": "https://badges.greenkeeper.io/{{github.user}}/{{github.repo}}.svg",
               "url": "https://greenkeeper.io/"
             },
             {
               "name": "semantic-release",
-              "icon":
-                "https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg",
+              "icon": "https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg",
               "url": "https://github.com/{{github.user}}/{{github.repo}}"
             },
             {
               "name": "styled with prettier",
-              "icon":
-                "https://img.shields.io/badge/styled_with-prettier-ff69b4.svg",
+              "icon": "https://img.shields.io/badge/styled_with-prettier-ff69b4.svg",
               "url": "https://github.com/prettier/prettier"
             },
             {
               "name": "Build Status",
-              "icon":
-                "https://secure.travis-ci.org/{{github.user}}/{{github.repo}}.png",
+              "icon": "https://secure.travis-ci.org/{{github.user}}/{{github.repo}}.png",
               "url": "http://travis-ci.org/{{github.user}}/{{github.repo}}"
             },
             {
               "name": "install size",
-              "icon":
-                "https://packagephobia.now.sh/badge?p={{name}}/@{{version}}",
-              "url":
-                "https://packagephobia.now.sh/result?p={{name}}@{{version}}"
+              "icon": "https://packagephobia.now.sh/badge?p={{name}}/@{{version}}",
+              "url": "https://packagephobia.now.sh/result?p={{name}}@{{version}}"
             },
             {
               "name": "codecov.io",
-              "icon":
-                "http://codecov.io/github/{{github.user}}/{{github.repo}}/coverage.svg?branch=master",
-              "url":
-                "http://codecov.io/github/{{github.user}}/{{github.repo}}?branch=master"
+              "icon": "http://codecov.io/github/{{github.user}}/{{github.repo}}/coverage.svg?branch=master",
+              "url": "http://codecov.io/github/{{github.user}}/{{github.repo}}?branch=master"
             },
             {
               "name": "Coverage Status",
-              "icon":
-                "https://coveralls.io/repos/{{github.user}}/{{github.repo}}/badge.svg",
+              "icon": "https://coveralls.io/repos/{{github.user}}/{{github.repo}}/badge.svg",
               "url": "https://coveralls.io/r/{{github.user}}/{{github.repo}}"
             },
             {
               "name": "Maintainability",
-              "icon":
-                "https://api.codeclimate.com/v1/badges/{{id}}/maintainability",
-              "url":
-                "https://codeclimate.com/github/{{github.user}}/{{github.repo}}/maintainability"
+              "icon": "https://api.codeclimate.com/v1/badges/{{id}}/maintainability",
+              "url": "https://codeclimate.com/github/{{github.user}}/{{github.repo}}/maintainability"
             },
             {
               "name": "Known Vulnerabilities",
-              "icon":
-                "https://snyk.io/test/github/{{github.user}}/{{github.repo}}/badge.svg",
-              "url":
-                "https://snyk.io/test/github/{{github.user}}/{{github.repo}}"
+              "icon": "https://snyk.io/test/github/{{github.user}}/{{github.repo}}/badge.svg",
+              "url": "https://snyk.io/test/github/{{github.user}}/{{github.repo}}"
             },
             {
               "name": "GitHub Issues",
-              "icon":
-                "https://img.shields.io/github/issues/{{github.user}}/{{github.repo}}.svg?style=flat-square",
+              "icon": "https://img.shields.io/github/issues/{{github.user}}/{{github.repo}}.svg?style=flat-square",
               "url": "https://github.com/{{github.user}}/{{github.repo}}/issues"
             },
             {
               "name": "Stories in Ready",
-              "icon":
-                "https://badge.waffle.io/{{github.user}}/{{github.repo}}.svg?label=ready&title=Ready",
+              "icon": "https://badge.waffle.io/{{github.user}}/{{github.repo}}.svg?label=ready&title=Ready",
               "url": "http://waffle.io/{{github.user}}/{{github.repo}}"
             },
             {
               "name": "Dependency Status",
-              "icon":
-                "https://david-dm.org/{{github.user}}/{{github.repo}}.svg",
+              "icon": "https://david-dm.org/{{github.user}}/{{github.repo}}.svg",
               "url": "https://david-dm.org/{{github.user}}/{{github.repo}}"
             },
             {
               "name": "devDependency Status",
-              "icon":
-                "https://david-dm.org/{{github.user}}/{{github.repo}}/dev-status.svg",
-              "url":
-                "https://david-dm.org/{{github.user}}/{{github.repo}}#info=devDependencies"
+              "icon": "https://david-dm.org/{{github.user}}/{{github.repo}}/dev-status.svg",
+              "url": "https://david-dm.org/{{github.user}}/{{github.repo}}#info=devDependencies"
             },
             {
               "name": "docs",
-              "icon":
-                "http://inch-ci.org/github/{{github.user}}/{{github.repo}}.svg?branch=master",
+              "icon": "http://inch-ci.org/github/{{github.user}}/{{github.repo}}.svg?branch=master",
               "url": "http://inch-ci.org/github/{{github.user}}/{{github.repo}}"
             },
             {
@@ -200,14 +194,12 @@
             },
             {
               "name": "downloads",
-              "icon":
-                "http://img.shields.io/npm/dm/{{github.repo}}.svg?style=flat-square",
+              "icon": "http://img.shields.io/npm/dm/{{github.repo}}.svg?style=flat-square",
               "url": "https://npmjs.org/package/{{github.repo}}"
             },
             {
               "name": "Commitizen friendly",
-              "icon":
-                "https://img.shields.io/badge/commitizen-friendly-brightgreen.svg",
+              "icon": "https://img.shields.io/badge/commitizen-friendly-brightgreen.svg",
               "url": "http://commitizen.github.io/cz-cli/"
             }
           ]
@@ -274,6 +266,7 @@
       "arlac77/aggregation-repository-provider",
       "arlac77/bitbucket-repository-provider",
       "arlac77/bocf",
+      "arlac77/cache-repository-provider",
       "arlac77/config-expander",
       "arlac77/es6-modules-playground",
       "arlac77/expression-expander",
