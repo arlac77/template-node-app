@@ -2,6 +2,8 @@
 
 {{description}}
 
+# usage
+
 # API
 
 # install
