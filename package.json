@@ -1,6 +1,7 @@
 {
   "template": {
     "usedBy": [
+      "Kronos-Integration/kronos-interceptor",
       "arlac77/aggregation-repository-provider",
       "arlac77/bocf",
       "arlac77/config-expander",
