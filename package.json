@@ -3,6 +3,7 @@
     "usedBy": [
       "Kronos-Integration/kronos-interceptor",
       "Kronos-Integration/kronos-interceptor-decode-json",
+      "Kronos-Integration/kronos-interceptor-http-request",
       "arlac77/aggregation-repository-provider",
       "arlac77/bocf",
       "arlac77/config-expander",
