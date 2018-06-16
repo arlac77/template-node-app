@@ -6,6 +6,7 @@
       "arlac77/config-expander",
       "arlac77/expression-expander",
       "arlac77/loglevel-mixin",
+      "arlac77/mqtt-timeseries-leveldb",
       "arlac77/rpm-codec",
       "arlac77/scope-reporter",
       "arlac77/statetransition-mixin"
