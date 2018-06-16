@@ -5,6 +5,7 @@
       "Kronos-Integration/kronos-interceptor-decode-json",
       "Kronos-Integration/kronos-interceptor-http-request",
       "Kronos-Integration/kronos-interceptor-message-handler",
+      "Kronos-Integration/kronos-interceptor-stream-obj2string",
       "arlac77/aggregation-repository-provider",
       "arlac77/bocf",
       "arlac77/config-expander",
