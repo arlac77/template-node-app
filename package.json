@@ -2,6 +2,7 @@
   "template": {
     "usedBy": [
       "arlac77/aggregation-repository-provider",
+      "arlac77/loglevel-mixin",
       "arlac77/rpm-codec"
     ]
   }
