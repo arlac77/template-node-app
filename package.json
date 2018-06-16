@@ -18,7 +18,8 @@
       "arlac77/sftp-resolver-fs",
       "arlac77/statetransition-mixin",
       "arlac77/symatem-infrastructure",
-      "arlac77/timeseries-sqlite2leveldb"
+      "arlac77/timeseries-sqlite2leveldb",
+      "arlac77/url-resolver-fs"
     ]
   }
 }
