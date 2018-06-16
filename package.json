@@ -11,6 +11,7 @@
       "arlac77/rpm-codec",
       "arlac77/scope-reporter",
       "arlac77/statetransition-mixin",
+      "arlac77/symatem-infrastructure",
       "arlac77/timeseries-sqlite2leveldb"
     ]
   }
