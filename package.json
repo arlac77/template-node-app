@@ -4,6 +4,7 @@
       "arlac77/aggregation-repository-provider",
       "arlac77/bocf",
       "arlac77/config-expander",
+      "arlac77/es6-modules-playground",
       "arlac77/expression-expander",
       "arlac77/loglevel-mixin",
       "arlac77/mqtt-timeseries-leveldb",
