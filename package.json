@@ -266,6 +266,7 @@
       "arlac77/bocf",
       "arlac77/cache-repository-provider",
       "arlac77/config-expander",
+      "arlac77/config-expander-cli",
       "arlac77/es6-modules-playground",
       "arlac77/expression-expander",
       "arlac77/fs-resolver-fs",
