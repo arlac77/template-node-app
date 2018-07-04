@@ -1,7 +1,8 @@
 {
   "template": {
     "usedBy": [
-      "Kronos-Integration/kronos-step-archive-tar"
+      "Kronos-Integration/kronos-step-archive-tar",
+      "Kronos-Integration/kronos-step-passthrough"
     ]
   }
 }
