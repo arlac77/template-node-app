@@ -3,7 +3,8 @@
     "usedBy": [
       "Kronos-Integration/kronos-step-archive-tar",
       "Kronos-Integration/kronos-step-passthrough",
-      "Kronos-Integration/kronos-step-stdio"
+      "Kronos-Integration/kronos-step-stdio",
+      "Kronos-Integration/kronos-step-system"
     ]
   }
 }
