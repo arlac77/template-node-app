@@ -22,7 +22,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "documentation": "^8.0.0",
+    "documentation": "^8.0.1",
     "markdown-doctest": "^0.9.1",
     "nyc": "^13.0.0",
     "ava": "^0.25.0",
