@@ -264,6 +264,7 @@
       "arlac77/expression-expander",
       "arlac77/fs-resolver-fs",
       "arlac77/gd-playground",
+      "arlac77/gitea-repository-provider",
       "arlac77/github-repository-provider",
       "arlac77/kv-reader",
       "arlac77/local-repository-provider",
