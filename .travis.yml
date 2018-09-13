@@ -23,8 +23,6 @@ before_install:
 before_script:
   - npm prune
   - npm install -g --production coveralls codecov
-  - -npm install -g codecov
-  - -npm install coveralls
 script:
   - npm run cover
   - npm run lint
@@ -32,6 +30,5 @@ script:
 after_script:
   - codecov
   - cat ./build/coverage/lcov.info | coveralls
-  - -npm run docs
 after_success:
   - npm run travis-deploy-once "npm run semantic-release"
