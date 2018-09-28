@@ -1,6 +1,7 @@
 import resolve from "rollup-plugin-node-resolve";
 import commonjs from "rollup-plugin-commonjs";
 import executable from "rollup-plugin-executable";
+import json from "rollup-plugin-json";
 import cleanup from "rollup-plugin-cleanup";
 import pkg from "./package.json";
 
@@ -15,7 +16,17 @@ export default [
           "#!/usr/bin/env -S node --experimental-modules --experimental-worker",
         interop: false
       },
-      plugins: [resolve(), commonjs(), cleanup(), executable()]
+      plugins: [
+        resolve(),
+        commonjs(),
+        json({
+          include: "package.json",
+          preferConst: true,
+          compact: true
+        }),
+        cleanup(),
+        executable()
+      ]
     };
   }),
   {
