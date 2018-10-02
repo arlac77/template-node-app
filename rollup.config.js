@@ -13,7 +13,7 @@ export default [
         file: pkg.bin[name],
         format: "cjs",
         banner:
-          "#!/usr/bin/env -S node --experimental-modules --experimental-worker",
+          '#!/bin/sh\n":" //# comment; exec /usr/bin/env node --experimental-modules --experimental-worker "$0" "$@"',
         interop: false
       },
       plugins: [
