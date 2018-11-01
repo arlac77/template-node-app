@@ -8,7 +8,7 @@ import pkg from "./package.json";
 export default [
   ...Object.keys(pkg.bin || {}).map(name => {
     return {
-      input: `src/${name}.js`,
+      input: `src/${name}-cli.js`,
       output: {
         file: pkg.bin[name],
         format: "cjs",
@@ -17,7 +17,6 @@ export default [
         interop: false
       },
       plugins: [
-        resolve(),
         commonjs(),
         json({
           include: "package.json",
