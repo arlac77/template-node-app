@@ -1,9 +1,10 @@
 - rollup.config.test.js
 - .DS_Store
 - .npmrc
-- coverage
 - node_modules
+- .nyc_output
 build
+coverage
 tests
 doc
 *.log
@@ -14,7 +15,6 @@ doc
 .travis.yml
 .npmignore
 .vscode
-.nyc_output
 .markdown-doctest-setup.js
 rollup.config.js
 SUMMARY.md
