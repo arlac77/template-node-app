@@ -24,6 +24,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "nyc" : "-",
     "documentation": "^8.1.2",
     "markdown-doctest": "^0.9.1",
     "ava": "^1.0.0-rc.1",
