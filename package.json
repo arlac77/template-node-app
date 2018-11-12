@@ -24,8 +24,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "nyc": "-",
-    "@babel/plugin-proposal-async-generator-functions": "-",
+    "nyc": "--delete--",
+    "@babel/plugin-proposal-async-generator-functions": "--delete--",
     "documentation": "^8.1.2",
     "markdown-doctest": "^0.9.1",
     "ava": "^1.0.0-rc.2",
@@ -65,7 +65,7 @@
     ],
     "presets": []
   },
-  "nyc": "-",
+  "nyc": "--delete--",
   "template": {
     "files": [
       {
