@@ -79,7 +79,7 @@
           },
           "actions": [
             {
-              "path": "$.nyc['report-dir']",
+              "path": "$.ava.require",
               "op": "replace"
             }
           ]
