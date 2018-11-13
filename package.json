@@ -26,6 +26,7 @@
   "devDependencies": {
     "nyc": "--delete--",
     "@babel/plugin-proposal-async-generator-functions": "--delete--",
+    "@babel/preset-env": "--delete--",
     "documentation": "^8.1.2",
     "markdown-doctest": "^0.9.1",
     "ava": "^1.0.0-rc.2",
@@ -51,9 +52,7 @@
   "engines": {
     "node": ">=10.13"
   },
-  "xo": {
-    "space": true
-  },
+  "xo": "--delete--",
   "ava": {
     "require": [
       "esm"
