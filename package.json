@@ -80,6 +80,18 @@
             {
               "path": "$.ava.require",
               "op": "replace"
+            },
+            {
+              "path": "$.ava.files",
+              "op": "replace"
+            },
+            {
+              "path": "$.ava.babel",
+              "op": "replace"
+            },
+            {
+              "path": "$.ava.compileEnhancements",
+              "op": "replace"
             }
           ]
         }
