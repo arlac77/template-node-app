@@ -93,6 +93,10 @@
             {
               "path": "$.ava.compileEnhancements",
               "op": "replace"
+            },
+            {
+              "path": "$.ava.presets",
+              "op": "delete"
             }
           ]
         }
