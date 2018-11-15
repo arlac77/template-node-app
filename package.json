@@ -56,6 +56,10 @@
     "require": [
       "esm"
     ],
+    "extensions": [
+      "js",
+      "mjs"
+    ],
     "babel": false,
     "compileEnhancements": false,
     "files": [
@@ -84,6 +88,10 @@
             },
             {
               "path": "$.ava.files",
+              "op": "replace"
+            },
+            {
+              "path": "$.ava.extensions",
               "op": "replace"
             },
             {
