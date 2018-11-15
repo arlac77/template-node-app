@@ -62,7 +62,7 @@
       "tests/*-test.js",
       "tests/*-test.mjs"
     ],
-    "presets": []
+    "presets": "--delete--"
   },
   "nyc": "--delete--",
   "template": {
@@ -93,10 +93,6 @@
             {
               "path": "$.ava.compileEnhancements",
               "op": "replace"
-            },
-            {
-              "path": "$.ava.presets",
-              "op": "delete"
             }
           ]
         }
