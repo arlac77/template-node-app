@@ -4,7 +4,7 @@ node_js:
   - -9
   - -10
   - 10.13
-- sudo: false
+sudo: --delete--
 branches:
   only:
     - master
