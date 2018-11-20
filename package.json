@@ -219,14 +219,14 @@
         "merger": "MergeAndRemoveLineSet",
         "pattern": ".gitignore",
         "options": {
-          "message": "chore(git): update {{path}} from template"
+          "message": "chore(git): update {{entry.name}} from template"
         }
       },
       {
         "merger": "MergeAndRemoveLineSet",
         "pattern": ".npmignore",
         "options": {
-          "message": "chore(npm): update {{path}} from template"
+          "message": "chore(npm): update {{entry.name}} from template"
         }
       },
       {
