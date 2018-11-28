@@ -49,7 +49,7 @@
   ],
   "license": "BSD-2-Clause",
   "engines": {
-    "node": ">=10.13"
+    "node": ">=10.14"
   },
   "xo": "--delete--",
   "ava": {
