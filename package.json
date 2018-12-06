@@ -312,7 +312,8 @@
       "arlac77/timeseries-sqlite2leveldb",
       "arlac77/url-cmd",
       "arlac77/url-resolver-fs",
-      "arlac77/uti"
+      "arlac77/uti",
+      "k0nsti/konsum"
     ]
   }
 }
