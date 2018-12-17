@@ -11,7 +11,6 @@
     "npm-package-template"
   ],
   "scripts": {
-    "precover": "--delete--",
     "cover": "#overwrite c8 --temp-directory build/coverage ava && c8 report -r lcov --temp-directory build/coverage",
     "test": "ava",
     "posttest": "npm run prepare && markdown-doctest",
@@ -23,10 +22,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "nyc": "--delete--",
-    "@babel/plugin-proposal-async-generator-functions": "--delete--",
-    "@babel/preset-env": "--delete--",
-    "documentation": "^9.0.0",
+    "documentation": "^9.1.0",
     "markdown-doctest": "^0.9.1",
     "ava": "^1.0.1",
     "c8": "^3.2.1",
@@ -51,7 +47,6 @@
   "engines": {
     "node": ">=10.14.2"
   },
-  "xo": "--delete--",
   "ava": {
     "require": [
       "esm"
