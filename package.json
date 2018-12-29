@@ -279,7 +279,6 @@
       "arlac77/gitea-repository-provider",
       "arlac77/github-repository-provider",
       "arlac77/keytar-auth-provider",
-      "arlac77/kv-reader",
       "arlac77/local-repository-provider",
       "arlac77/log-stream-analyser",
       "arlac77/loglevel-mixin",
