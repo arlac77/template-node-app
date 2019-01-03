@@ -262,7 +262,6 @@
       "Kronos-Integration/kronos-step-system",
       "Kronos-Integration/test-interceptor",
       "Kronos-Integration/test-step",
-      "arlac77/bitbucket-repository-provider",
       "arlac77/bocf",
       "arlac77/cache-repository-provider",
       "arlac77/component-manager",
