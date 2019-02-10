@@ -265,8 +265,6 @@
       "arlac77/bocf",
       "arlac77/component-manager",
       "arlac77/config-expander-cli",
-      "arlac77/fs-resolver-fs",
-      "arlac77/gd-playground",
       "arlac77/hook-ci",
       "arlac77/log-stream-analyser",
       "arlac77/mkpr",
