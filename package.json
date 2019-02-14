@@ -269,7 +269,6 @@
       "arlac77/log-stream-analyser",
       "arlac77/mkpr",
       "arlac77/model",
-      "arlac77/model-attributes",
       "arlac77/mqtt-timeseries-leveldb",
       "arlac77/named-conf",
       "arlac77/node-symatem",
