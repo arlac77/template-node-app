@@ -167,11 +167,6 @@
               "url": "https://github.com/{{github.user}}/{{github.repo}}/issues"
             },
             {
-              "name": "Stories in Ready",
-              "icon": "https://badge.waffle.io/{{github.user}}/{{github.repo}}.svg?label=ready&title=Ready",
-              "url": "http://waffle.io/{{github.user}}/{{github.repo}}"
-            },
-            {
               "name": "Dependency Status",
               "icon": "https://david-dm.org/{{github.user}}/{{github.repo}}.svg",
               "url": "https://david-dm.org/{{github.user}}/{{github.repo}}"
