@@ -182,11 +182,6 @@
               "url": "http://inch-ci.org/github/{{github.user}}/{{github.repo}}"
             },
             {
-              "name": "XO code style",
-              "icon": "https://img.shields.io/badge/code_style-XO-5ed9c7.svg",
-              "url": "https://github.com/sindresorhus/xo"
-            },
-            {
               "name": "downloads",
               "icon": "http://img.shields.io/npm/dm/{{github.repo}}.svg?style=flat-square",
               "url": "https://npmjs.org/package/{{github.repo}}"
