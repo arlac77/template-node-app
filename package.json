@@ -251,6 +251,7 @@
       "arlac77/bocf",
       "arlac77/component-manager",
       "arlac77/config-expander-cli",
+      "arlac77/entitlement-provider",
       "arlac77/hook-ci",
       "arlac77/log-stream-analyser",
       "arlac77/mkpr",
