@@ -8,7 +8,7 @@ import pkg from "./package.json";
 export default [
   ...Object.keys(pkg.bin || {}).map(name => {
     return {
-      input: `src/${name}-cli.js`,
+      input: `src/${name}-cli.mjs`,
       output: {
         file: pkg.bin[name],
         format: "cjs",
