@@ -23,7 +23,7 @@
   "dependencies": {},
   "devDependencies": {
     "travis-deploy-once": "--delete--",
-    "documentation": "^10.0.0",
+    "documentation": "^10.1.0",
     "markdown-doctest": "^0.9.1",
     "ava": "^1.4.1",
     "c8": "^3.5.0",
