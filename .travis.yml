@@ -1,6 +1,7 @@
 language: node_js
 node_js:
   - -10
+  - -11
   - -12
   - 10.15.3
   - 12.1.0
@@ -10,10 +11,13 @@ jobs:
     - stage: test
       skip_cleanup: "true"
       script:
-        - npm install -g --production coveralls
         - npm run cover
         - npx codecov
-        - cat ./build/coverage/lcov.info | coveralls
+        - cat ./build/coverage/lcov.info | npx coveralls
+    - stage: doc
+      node_js: lts/*
+      skip_cleanup: "true"
+      script:
         - npm run lint
         - npm run docs
     - stage: release
@@ -21,5 +25,6 @@ jobs:
       script: skip
       deploy:
         provider: script
+        skip_cleanup: "true"
         script:
           - npx semantic-release
