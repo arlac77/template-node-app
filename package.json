@@ -22,7 +22,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "travis-deploy-once": "--delete--",
     "documentation": "^11.0.0",
     "markdown-doctest": "^0.9.1",
     "ava": "^1.4.1",
@@ -64,7 +63,6 @@
     ],
     "presets": "--delete--"
   },
-  "nyc": "--delete--",
   "template": {
     "files": [
       {
