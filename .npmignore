@@ -4,8 +4,9 @@
 - .nyc_output
 - .npmignore
 - .gitignore
+- coverage
+
 build
-coverage
 tests
 doc
 *.log
@@ -16,5 +17,4 @@ doc
 .vscode
 .markdown-doctest-setup.js
 rollup.config.js
-SUMMARY.md
 .DS_Store
