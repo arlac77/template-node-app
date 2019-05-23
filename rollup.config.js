@@ -6,7 +6,7 @@ import cleanup from "rollup-plugin-cleanup";
 import builtins from "builtin-modules";
 import pkg from "./package.json";
 
-const external = [...buildins];
+const external = [...builtins];
 
 export default [
   ...Object.keys(pkg.bin || {}).map(name => {
