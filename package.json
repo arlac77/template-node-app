@@ -35,7 +35,8 @@
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-executable": "^1.4.5",
     "builtin-modules": "^3.1.0",
-    "semantic-release": "^15.13.14"
+    "semantic-release": "^15.13.14",
+    "rollup-plugin-node-commonjs": "^10.0.0"
   },
   "contributors": [
     {
