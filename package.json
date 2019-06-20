@@ -33,7 +33,7 @@
     "rollup-plugin-node-resolve": "^5.0.3",
     "rollup-plugin-babel": "^4.3.1",
     "rollup-plugin-json": "^4.0.0",
-    "rollup-plugin-executable": "^1.4.5",
+    "rollup-plugin-executable": "^1.4.6",
     "builtin-modules": "^3.1.0",
     "semantic-release": "^15.13.16"
   },
