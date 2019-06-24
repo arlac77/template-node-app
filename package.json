@@ -25,7 +25,7 @@
     "documentation": "^11.0.1",
     "markdown-doctest": "^0.9.1",
     "ava": "^2.1.0",
-    "c8": "^5.0.1",
+    "c8":"^5.0.2",
     "esm": "^3.2.25",
     "rollup":"^1.16.2",
     "rollup-plugin-commonjs": "^10.0.0",
