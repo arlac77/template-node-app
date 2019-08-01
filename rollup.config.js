@@ -17,7 +17,8 @@ export default [
         format: "cjs",
         banner:
           '#!/bin/sh\n":" //# comment; exec /usr/bin/env node --experimental-modules "$0" "$@"',
-        interop: false
+        interop: false,
+        externalLiveBindings: false
       },
       plugins: [
         commonjs(),
@@ -27,7 +28,7 @@ export default [
           compact: true
         }),
         cleanup({
-          extensions: ['js','mjs','jsx','tag']
+          extensions: ["js", "mjs", "jsx", "tag"]
         }),
         executable()
       ],
@@ -39,10 +40,15 @@ export default [
     output: {
       file: pkg.main,
       format: "cjs",
-      interop: false
+      interop: false,
+      externalLiveBindings: false
     },
-    plugins: [resolve(), commonjs(), cleanup({
-          extensions: ['js','mjs','jsx','tag']
-        })]
+    plugins: [
+      resolve(),
+      commonjs(),
+      cleanup({
+        extensions: ["js", "mjs", "jsx", "tag"]
+      })
+    ]
   }
 ];
