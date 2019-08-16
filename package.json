@@ -265,5 +265,6 @@
       "arlac77/url-cmd",
       "k0nsti/konsum"
     ]
-  }
+  },
+  "node": ">=10.16.3"
 }
