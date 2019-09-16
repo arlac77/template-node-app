@@ -22,7 +22,7 @@
   "devDependencies": {
     "documentation": "^12.1.2",
     "markdown-doctest": "^0.9.1",
-    "ava": "^2.3.0",
+    "ava": "^2.4.0",
     "c8": "^5.0.4",
     "esm": "^3.2.25",
     "rollup": "^1.21.3",
