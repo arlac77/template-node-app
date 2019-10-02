@@ -35,7 +35,7 @@ node_js:
   - -10
   - -11
   - -12
-cache: -npm
+cache: --delete-- npm
 script:
   - -npm run cover
   - -npx codecov
