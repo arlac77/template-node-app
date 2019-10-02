@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "scripts": {
-    "semantic-release": "--delete--",
+    "semantic-release": "^15.13.25",
     "travis-deploy-once": "--delete--",
     "cover": "#overwrite c8 -x 'tests/**/*.mjs' --temp-directory build/tmp ava && c8 report -r lcov -o build/coverage --temp-directory build/tmp",
     "test": "ava",
@@ -33,7 +33,7 @@
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-executable": "^1.5.1",
     "builtin-modules": "^3.1.0",
-    "semantic-release": "^15.13.24"
+    "semantic-release": "^15.13.25"
   },
   "contributors": [
     {
