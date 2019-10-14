@@ -16,7 +16,7 @@ export default [
         file: pkg.bin[name],
         format: "cjs",
         banner:
-          '#!/bin/sh\n":" //# comment; exec /usr/bin/env node --experimental-modules "$0" "$@"',
+          '#!/bin/sh\n":" //# comment; exec /usr/bin/env node --experimental-modules --experimental-wasm-modules "$0" "$@"',
         interop: false,
         externalLiveBindings: false
       },
