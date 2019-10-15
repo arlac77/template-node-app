@@ -1,9 +1,9 @@
 - out
 - package-lock.json
 - .nyc_output
+- coverage
 node_modules
 build
-coverage
 dist
 *.log
 *.dump
