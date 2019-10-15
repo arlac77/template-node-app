@@ -22,6 +22,7 @@ export default [
       },
       plugins: [
         commonjs(),
+        resolve(),
         json({
           include: "package.json",
           preferConst: true,
@@ -44,8 +45,8 @@ export default [
       externalLiveBindings: false
     },
     plugins: [
-      resolve(),
       commonjs(),
+      resolve(),
       cleanup({
         extensions: ["js", "mjs", "jsx", "tag"]
       })
