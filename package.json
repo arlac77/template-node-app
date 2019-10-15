@@ -67,7 +67,7 @@
         "pattern": "**/package.json",
         "options": {
           "keywords": {
-            "svelte" : "svelte",
+            "svelte": "svelte",
             "auth-provider": "auth-provider",
             "repository-provider.+": "repository-provider",
             "^kronos-interceptor.+": "kronos-interceptor",
@@ -261,6 +261,7 @@
       "arlac77/npm-template-sync-github-hook",
       "arlac77/rtsp-archive",
       "arlac77/symatem-infrastructure",
+      "arlac77/system-dashboard",
       "arlac77/timeseries-sqlite2leveldb",
       "arlac77/url-cmd",
       "k0nsti/konsum"
