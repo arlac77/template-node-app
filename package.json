@@ -56,8 +56,7 @@
     "compileEnhancements": false,
     "files": [
       "tests/*-test.mjs"
-    ],
-    "presets": "--delete--"
+    ]
   },
   "template": {
     "inheritFrom": "arlac77/npm-package-template-root",
