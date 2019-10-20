@@ -218,7 +218,6 @@
       }
     ],
     "usedBy": [
-      "Kronos-Integration/interceptor-gzip",
       "Kronos-Integration/kronos-cluster-node",
       "Kronos-Integration/kronos-flow",
       "Kronos-Integration/kronos-flow-control-step",
@@ -228,7 +227,6 @@
       "Kronos-Integration/kronos-interceptor-message-handler",
       "Kronos-Integration/kronos-interceptor-stream-obj2string",
       "Kronos-Integration/kronos-koa",
-      "Kronos-Integration/kronos-service",
       "Kronos-Integration/kronos-service-admin",
       "Kronos-Integration/kronos-service-consul",
       "Kronos-Integration/kronos-service-health-check",
@@ -251,7 +249,6 @@
       "arlac77/hook-ci",
       "arlac77/log-stream-analyser",
       "arlac77/mkpr",
-      "arlac77/model",
       "arlac77/named-conf",
       "arlac77/node-symatem",
       "arlac77/npm-navigator",
