@@ -230,7 +230,6 @@
       "Kronos-Integration/kronos-service-admin",
       "Kronos-Integration/kronos-service-logger-gelf",
       "Kronos-Integration/kronos-service-manager",
-      "Kronos-Integration/kronos-service-registry",
       "Kronos-Integration/kronos-service-uti",
       "Kronos-Integration/kronos-step",
       "Kronos-Integration/kronos-step-aggregate",
