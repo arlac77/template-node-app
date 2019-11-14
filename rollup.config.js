@@ -12,7 +12,7 @@ const plugins = [
   commonjs(),
   resolve(),
   json({
-    include: "package.json",
+  //  include: "package.json",
     preferConst: true,
     compact: true
   }),
