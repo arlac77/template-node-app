@@ -33,7 +33,7 @@ const config = Object.keys(pkg.bin || {}).map(name => {
   };
 });
 
-if (pkg.module !== undefined && pkg.main !== undefined) {
+if (pkg.module !== undefined && pkg.main !== undefined && pkg.module != pkg.main) {
   config.push({
     input: pkg.module,
     output: {
