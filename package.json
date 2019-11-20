@@ -44,7 +44,7 @@
   ],
   "license": "BSD-2-Clause",
   "engines": {
-    "node": ">=12.12.0"
+    "node": ">=12.13.1"
   },
   "ava": {
     "require": [
