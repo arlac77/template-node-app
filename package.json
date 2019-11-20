@@ -227,7 +227,6 @@
       "Kronos-Integration/kronos-interceptor-message-handler",
       "Kronos-Integration/kronos-interceptor-stream-obj2string",
       "Kronos-Integration/kronos-koa",
-      "Kronos-Integration/kronos-service-manager",
       "Kronos-Integration/kronos-step",
       "Kronos-Integration/kronos-step-aggregate",
       "Kronos-Integration/kronos-step-archive-arangodb",
