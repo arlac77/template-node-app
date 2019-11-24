@@ -164,21 +164,6 @@
               "url": "https://github.com/{{github.user}}/{{github.repo}}/issues"
             },
             {
-              "name": "Dependency Status",
-              "icon": "https://david-dm.org/{{github.user}}/{{github.repo}}.svg",
-              "url": "https://david-dm.org/{{github.user}}/{{github.repo}}"
-            },
-            {
-              "name": "devDependency Status",
-              "icon": "https://david-dm.org/{{github.user}}/{{github.repo}}/dev-status.svg",
-              "url": "https://david-dm.org/{{github.user}}/{{github.repo}}#info=devDependencies"
-            },
-            {
-              "name": "docs",
-              "icon": "http://inch-ci.org/github/{{github.user}}/{{github.repo}}.svg?branch=master",
-              "url": "http://inch-ci.org/github/{{github.user}}/{{github.repo}}"
-            },
-            {
               "name": "downloads",
               "icon": "http://img.shields.io/npm/dm/{{github.repo}}.svg?style=flat-square",
               "url": "https://npmjs.org/package/{{github.repo}}"
