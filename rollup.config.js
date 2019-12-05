@@ -1,7 +1,9 @@
-import resolve from "rollup-plugin-node-resolve";
+import resolve from '@rollup/plugin-node-resolve';
+import json from "@rollup/plugin-json";
+
+
 import commonjs from "rollup-plugin-commonjs";
 import executable from "rollup-plugin-executable";
-import json from "@rollup/plugin-json";
 import cleanup from "rollup-plugin-cleanup";
 import builtins from "builtin-modules";
 import pkg from "./package.json";
