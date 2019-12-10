@@ -1,11 +1,10 @@
-import resolve from '@rollup/plugin-node-resolve';
+import resolve from "@rollup/plugin-node-resolve";
 import json from "@rollup/plugin-json";
-
 
 import commonjs from "rollup-plugin-commonjs";
 import executable from "rollup-plugin-executable";
 import cleanup from "rollup-plugin-cleanup";
-import acornClassFields from 'acorn-class-fields';
+import acornClassFields from "acorn-class-fields";
 import builtins from "builtin-modules";
 import pkg from "./package.json";
 
@@ -15,7 +14,7 @@ const plugins = [
   commonjs(),
   resolve(),
   json({
-  //  include: "package.json",
+    //  include: "package.json",
     preferConst: true,
     compact: true
   }),
@@ -36,7 +35,11 @@ const config = Object.keys(pkg.bin || {}).map(name => {
   };
 });
 
-if (pkg.module !== undefined && pkg.main !== undefined && pkg.module != pkg.main) {
+if (
+  pkg.module !== undefined &&
+  pkg.main !== undefined &&
+  pkg.module != pkg.main
+) {
   config.push({
     input: pkg.module,
     output: {
@@ -52,5 +55,5 @@ export default config.map(c => {
     format: "cjs",
     ...c.output
   };
-  return { acornInjectPlugins:[ acornClassFields ], plugins, external, ...c };
+  return { acornInjectPlugins: [acornClassFields], plugins, external, ...c };
 });
