@@ -69,7 +69,7 @@
         "pattern": "**/package.json",
         "options": {
           "keywords": {
-            "svelte": "svelte",
+            "svelte": "^3.16.4",
             "auth-provider": "auth-provider",
             "repository-provider.+": "repository-provider",
             "^kronos-interceptor.+": "kronos-interceptor",
