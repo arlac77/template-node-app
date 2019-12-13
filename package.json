@@ -9,8 +9,6 @@
   },
   "keywords": [],
   "scripts": {
-    "semantic-release": "--delete--",
-    "travis-deploy-once": "--delete--",
     "cover": "#overwrite c8 -x 'tests/**/*' --temp-directory build/tmp ava && c8 report -r lcov -o build/coverage --temp-directory build/tmp",
     "test": "ava",
     "posttest": "npm run prepare && markdown-doctest",
@@ -28,11 +26,11 @@
     "ava": "^2.4.0",
     "c8": "^6.0.1",
     "esm": "^3.2.25",
-    "rollup": "^1.27.11",
+    "rollup": "^1.27.12",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-cleanup": "^3.1.1",
     "rollup-plugin-babel": "^4.3.1",
-    "rollup-plugin-executable": "^1.5.1",
+    "rollup-plugin-executable": "^1.5.2",
     "@rollup/plugin-json": "^4.0.0",
     "@rollup/plugin-node-resolve": "^6.0.0",
     "builtin-modules": "^3.1.0",
@@ -184,7 +182,6 @@
       }
     ],
     "usedBy": [
-      "Kronos-Integration/kronos-cluster-node",
       "Kronos-Integration/kronos-flow",
       "Kronos-Integration/kronos-flow-control-step",
       "Kronos-Integration/kronos-http-routing-step",
@@ -199,9 +196,7 @@
       "Kronos-Integration/kronos-step-stdio",
       "Kronos-Integration/kronos-step-system",
       "arlac77/bocf",
-      "arlac77/component-manager",
       "arlac77/config-expander-cli",
-      "arlac77/entitlement-provider",
       "arlac77/hook-ci",
       "arlac77/log-stream-analyser",
       "arlac77/mkpr",
@@ -213,7 +208,6 @@
       "arlac77/npm-template-sync-github-hook",
       "arlac77/rtsp-archive",
       "arlac77/symatem-infrastructure",
-      "arlac77/system-dashboard",
       "arlac77/timeseries-sqlite2leveldb",
       "arlac77/url-cmd",
       "k0nsti/konsum"
