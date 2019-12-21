@@ -74,29 +74,7 @@
             "^kronos-service-(?!manager)": "kronos-service",
             "^kronos-step.+": "kronos-step",
             "^kronos-adapter.+": "kronos-step"
-          },
-          "actions": [
-            {
-              "path": "$.ava.require",
-              "op": "replace"
-            },
-            {
-              "path": "$.ava.files",
-              "op": "replace"
-            },
-            {
-              "path": "$.ava.extensions",
-              "op": "replace"
-            },
-            {
-              "path": "$.ava.babel",
-              "op": "replace"
-            },
-            {
-              "path": "$.ava.compileEnhancements",
-              "op": "replace"
-            }
-          ]
+          }
         }
       },
       {
