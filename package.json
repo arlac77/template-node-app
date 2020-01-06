@@ -7,7 +7,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "keywords": [],
   "scripts": {
     "cover": "#overwrite c8 -x 'tests/**/*' --temp-directory build/tmp ava && c8 report -r lcov -o build/coverage --temp-directory build/tmp",
     "test": "ava",
@@ -18,10 +17,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "rollup-plugin-json": "--delete--",
-    "rollup-plugin-node-resolve": "--delete--",
-    "rollup-plugin-commonjs": "--delete--",
-
     "documentation": "^12.1.4",
     "markdown-doctest": "^1.0.0",
     "ava": "^2.4.0",
@@ -37,12 +32,6 @@
     "builtin-modules": "^3.1.0",
     "semantic-release": "^15.14.0"
   },
-  "contributors": [
-    {
-      "name": "Markus Felten",
-      "email": "markus.felten@gmx.de"
-    }
-  ],
   "license": "BSD-2-Clause",
   "engines": {
     "node": ">=12.14.0"
@@ -63,7 +52,8 @@
   "template": {
     "inheritFrom": [
       "arlac77/npm-package-template-root",
-      "arlac77/npm-package-template-travis"
+      "arlac77/npm-package-template-travis",
+      "arlac77/npm-package-template-rollup"
     ],
     "files": [
       {
@@ -123,10 +113,6 @@
             }
           ]
         }
-      },
-      {
-        "merger": "Rollup",
-        "pattern": "**/rollup.config.js"
       }
     ],
     "usedBy": [
