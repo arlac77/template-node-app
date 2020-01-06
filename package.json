@@ -53,7 +53,8 @@
     "inheritFrom": [
       "arlac77/npm-package-template-root",
       "arlac77/npm-package-template-travis",
-      "arlac77/npm-package-template-rollup"
+      "arlac77/npm-package-template-rollup",
+      "arlac77/npm-package-template-ava"
     ],
     "files": [
       {
@@ -84,16 +85,6 @@
               "name": "install size",
               "icon": "https://packagephobia.now.sh/badge?p={{name}}/@{{version}}",
               "url": "https://packagephobia.now.sh/result?p={{name}}@{{version}}"
-            },
-            {
-              "name": "codecov.io",
-              "icon": "http://codecov.io/github/{{github.user}}/{{github.repo}}/coverage.svg?branch=master",
-              "url": "http://codecov.io/github/{{github.user}}/{{github.repo}}?branch=master"
-            },
-            {
-              "name": "Coverage Status",
-              "icon": "https://coveralls.io/repos/{{github.user}}/{{github.repo}}/badge.svg",
-              "url": "https://coveralls.io/r/{{github.user}}/{{github.repo}}"
             },
             {
               "name": "Maintainability",
