@@ -1,53 +1,17 @@
 {
-  "name": "{{name}}",
-  "version": "0.0.0-semantic-release",
-  "description": "{{description}}",
   "module": "{{module}}",
   "main": "{{main}}",
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
-    "cover": "#overwrite c8 -x 'tests/**/*' --temp-directory build/tmp ava && c8 report -r lcov -o build/coverage --temp-directory build/tmp",
-    "test": "ava",
     "posttest": "npm run prepare && markdown-doctest",
     "prepare": "rollup -c",
     "docs": "documentation readme {{module}} --section=API",
     "lint": "documentation lint {{module}}"
   },
-  "dependencies": {},
   "devDependencies": {
     "documentation": "^12.1.4",
     "markdown-doctest": "^1.0.0",
-    "ava": "^2.4.0",
-    "c8": "^7.0.0",
-    "esm": "^3.2.25",
-    "rollup": "^1.28.0",
-    "rollup-plugin-cleanup": "^3.1.1",
-    "rollup-plugin-babel": "^4.3.1",
-    "rollup-plugin-executable": "^1.5.2",
-    "@rollup/plugin-json": "^4.0.1",
-    "@rollup/plugin-node-resolve": "^6.1.0",
-    "@rollup/plugin-commonjs": "^11.0.1",
     "builtin-modules": "^3.1.0",
     "semantic-release": "^15.14.0"
-  },
-  "license": "BSD-2-Clause",
-  "engines": {
-    "node": ">=12.14.0"
-  },
-  "ava": {
-    "require": [
-      "esm"
-    ],
-    "extensions": [
-      "mjs"
-    ],
-    "babel": false,
-    "compileEnhancements": false,
-    "files": [
-      "tests/*-test.mjs"
-    ]
   },
   "template": {
     "inheritFrom": [
