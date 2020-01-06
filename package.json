@@ -61,7 +61,10 @@
     ]
   },
   "template": {
-    "inheritFrom": "arlac77/npm-package-template-root",
+    "inheritFrom": [
+      "arlac77/npm-package-template-root",
+      "arlac77/npm-package-template-travis"
+    ],
     "files": [
       {
         "merger": "Package",
@@ -79,10 +82,6 @@
         }
       },
       {
-        "merger": "Travis",
-        "pattern": ".travis.yml"
-      },
-      {
         "merger": "Readme",
         "pattern": "README.md",
         "options": {
@@ -91,11 +90,6 @@
               "name": "styled with prettier",
               "icon": "https://img.shields.io/badge/styled_with-prettier-ff69b4.svg",
               "url": "https://github.com/prettier/prettier"
-            },
-            {
-              "name": "Build Status",
-              "icon": "https://secure.travis-ci.org/{{github.user}}/{{github.repo}}.png",
-              "url": "http://travis-ci.org/{{github.user}}/{{github.repo}}"
             },
             {
               "name": "install size",
