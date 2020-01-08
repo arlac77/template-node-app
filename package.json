@@ -9,16 +9,15 @@
   },
   "devDependencies": {
     "documentation": "^12.1.4",
-    "markdown-doctest": "^1.0.0",
-    "builtin-modules": "^3.1.0",
-    "semantic-release": "^15.14.0"
+    "markdown-doctest": "^1.0.0"
   },
   "template": {
     "inheritFrom": [
       "arlac77/npm-package-template-root",
       "arlac77/npm-package-template-travis",
       "arlac77/npm-package-template-rollup",
-      "arlac77/npm-package-template-ava"
+      "arlac77/npm-package-template-ava",
+      "arlac77/npm-package-template-release"
     ],
     "files": [
       {
