@@ -47,16 +47,6 @@
       }
     ],
     "usedBy": [
-      "Kronos-Integration/kronos-flow",
-      "Kronos-Integration/kronos-flow-control-step",
-      "Kronos-Integration/kronos-http-routing-step",
-      "Kronos-Integration/kronos-step",
-      "Kronos-Integration/kronos-step-aggregate",
-      "Kronos-Integration/kronos-step-archive-arangodb",
-      "Kronos-Integration/kronos-step-archive-tar",
-      "Kronos-Integration/kronos-step-passthrough",
-      "Kronos-Integration/kronos-step-stdio",
-      "Kronos-Integration/kronos-step-system",
       "arlac77/bocf",
       "arlac77/config-expander-cli",
       "arlac77/hook-ci",
