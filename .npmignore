@@ -6,6 +6,7 @@
 - .gitignore
 - coverage
 - .markdown-doctest-setup.js
+- SUMMARY.md
 build
 tests
 doc
