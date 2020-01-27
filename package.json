@@ -2,14 +2,10 @@
   "module": "{{module}}",
   "main": "{{main}}",
   "scripts": {
-    "posttest": "--delete-- npm run prepare && markdown-doctest",
     "prepare": "rollup -c"
   },
   "engines": {
     "node": ">=12.14.1"
-  },
-  "devDependencies": {
-    "markdown-doctest": "--delete--"
   },
   "template": {
     "inheritFrom": [
