@@ -2,11 +2,14 @@
   "module": "{{module}}",
   "main": "{{main}}",
   "scripts": {
-    "posttest": "npm run prepare && markdown-doctest",
+    "posttest": "--delete-- npm run prepare && markdown-doctest",
     "prepare": "rollup -c"
   },
+  "engines": {
+    "node": ">=12.14.1"
+  },
   "devDependencies": {
-    "markdown-doctest": "^1.0.0"
+    "markdown-doctest": "--delete--"
   },
   "template": {
     "inheritFrom": [
@@ -16,21 +19,6 @@
       "arlac77/npm-package-template-ava",
       "arlac77/npm-package-template-documentation",
       "arlac77/npm-package-template-release"
-    ],
-    "files": [
-      {
-        "merger": "Readme",
-        "pattern": "README.md",
-        "options": {
-          "badges": [
-            {
-              "name": "install size",
-              "icon": "https://packagephobia.now.sh/badge?p={{name}}/@{{version}}",
-              "url": "https://packagephobia.now.sh/result?p={{name}}@{{version}}"
-            }
-          ]
-        }
-      }
     ],
     "usedBy": [
       "arlac77/bocf",
