@@ -11,7 +11,7 @@ jobs:
       node_js:
         - -10
         - -12
-        - 12.14.1
+        - 12.15.0
       script:
         - npm run cover
         - npx codecov
