@@ -26,7 +26,6 @@
       "arlac77/node-symatem",
       "arlac77/npm-navigator",
       "arlac77/npm-pkgbuild",
-      "arlac77/npm-template-sync",
       "arlac77/npm-template-sync-github-hook",
       "arlac77/symatem-infrastructure",
       "arlac77/timeseries-sqlite2leveldb",
