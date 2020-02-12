@@ -5,7 +5,7 @@
     "prepare": "rollup -c"
   },
   "engines": {
-    "node": ">=12.15.0"
+    "node": ">=12.16.0"
   },
   "template": {
     "inheritFrom": [
