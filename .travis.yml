@@ -1,0 +1,5 @@
+jobs:
+  include:
+    - stage: test
+      node_js:
+        - 13.8.0
