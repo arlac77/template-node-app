@@ -1,3 +1,4 @@
+import { readFileSync } from "fs";
 import resolve from "@rollup/plugin-node-resolve";
 import json from "@rollup/plugin-json";
 import commonjs from "@rollup/plugin-commonjs";
@@ -5,7 +6,6 @@ import commonjs from "@rollup/plugin-commonjs";
 import executable from "rollup-plugin-executable";
 import cleanup from "rollup-plugin-cleanup";
 import builtins from "builtin-modules";
-import pkg from "./package.json";
 
 const external = [...builtins];
 const extensions = ["js", "mjs", "jsx", "tag"];
@@ -13,7 +13,6 @@ const plugins = [
   commonjs(),
   resolve(),
   json({
-    //  include: "package.json",
     preferConst: true,
     compact: true
   }),
@@ -22,27 +21,27 @@ const plugins = [
   })
 ];
 
-const config = Object.keys(pkg.bin || {}).map(name => {
+const { bin, main, module } = JSON.parse(
+  readFileSync("./package.json", { encoding: "utf8" })
+);
+
+const config = Object.keys(bin || {}).map(name => {
   return {
     input: `src/${name}-cli.mjs`,
     output: {
       plugins: [executable()],
       banner:
         '#!/bin/sh\n":" //# comment; exec /usr/bin/env node --experimental-modules --experimental-wasm-modules "$0" "$@"',
-      file: pkg.bin[name]
+      file: bin[name]
     }
   };
 });
 
-if (
-  pkg.module !== undefined &&
-  pkg.main !== undefined &&
-  pkg.module != pkg.main
-) {
+if (module !== undefined && main !== undefined && module != main) {
   config.push({
-    input: pkg.module,
+    input: module,
     output: {
-      file: pkg.main
+      file: main
     }
   });
 }
