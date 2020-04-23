@@ -15,6 +15,7 @@
     "usedBy": [
       "arlac77/bocf",
       "arlac77/config-expander-cli",
+      "arlac77/content-entry",
       "arlac77/hook-ci",
       "arlac77/log-stream-analyser",
       "arlac77/named-conf",
