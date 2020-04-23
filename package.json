@@ -25,6 +25,7 @@
       "arlac77/symatem-infrastructure",
       "arlac77/timeseries-sqlite2leveldb",
       "arlac77/url-cmd",
+      "arlac77/uti",
       "k0nsti/konsum"
     ]
   }
