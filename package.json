@@ -13,16 +13,10 @@
       "arlac77/template-semantic-release"
     ],
     "usedBy": [
-      "arlac77/bocf",
-      "arlac77/config-expander-cli",
       "arlac77/hook-ci",
-      "arlac77/named-conf",
       "arlac77/node-symatem",
       "arlac77/npm-navigator",
-      "arlac77/npm-pkgbuild",
-      "arlac77/npm-pkgbuild#multi_format",
       "arlac77/symatem-infrastructure",
-      "arlac77/url-cmd",
       "k0nsti/konsum"
     ]
   }
