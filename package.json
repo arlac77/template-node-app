@@ -15,7 +15,6 @@
     "usedBy": [
       "arlac77/hook-ci",
       "arlac77/node-symatem",
-      "arlac77/npm-navigator",
       "arlac77/symatem-infrastructure",
       "k0nsti/konsum"
     ]
