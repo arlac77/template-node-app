@@ -1,13 +1,8 @@
 {
-  "main": "{{main}}",
-  "scripts": {
-    "prepare": "rollup -c"
-  },
   "template": {
     "inheritFrom": [
-      "arlac77/template-root",
+      "arlac77/template-node-component",
       "arlac77/template-travis",
-      "arlac77/template-rollup",
       "arlac77/template-coverage",
       "arlac77/template-documentation",
       "arlac77/template-semantic-release"
