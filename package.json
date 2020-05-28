@@ -4,8 +4,7 @@
       "arlac77/template-node-component",
       "arlac77/template-travis",
       "arlac77/template-coverage",
-      "arlac77/template-documentation",
-      "arlac77/template-semantic-release"
+      "arlac77/template-documentation"
     ],
     "usedBy": [
       "arlac77/hook-ci",
