@@ -7,7 +7,6 @@
       "arlac77/template-documentation"
     ],
     "usedBy": [
-      "arlac77/hook-ci",
       "arlac77/mkpr",
       "arlac77/node-symatem",
       "arlac77/symatem-infrastructure",
