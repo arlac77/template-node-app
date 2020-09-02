@@ -9,6 +9,7 @@
     "usedBy": [
       "arlac77/mkpr",
       "arlac77/node-symatem",
+      "arlac77/npm-template-sync",
       "arlac77/symatem-infrastructure",
       "k0nsti/konsum"
     ]
