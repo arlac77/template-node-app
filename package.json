@@ -1,7 +1,6 @@
 {
   "template": {
     "properties": {
-      "node_version": "14.12.0"
     },
     "inheritFrom": [
       "arlac77/template-node-component",
