@@ -1,7 +1,6 @@
 {
   "template": {
-    "properties": {
-    },
+    "properties": {},
     "inheritFrom": [
       "arlac77/template-node-component",
       "arlac77/template-travis"
@@ -11,6 +10,7 @@
       "arlac77/node-symatem",
       "arlac77/npm-template-sync",
       "arlac77/symatem-infrastructure",
+      "arlac77/url-cmd",
       "k0nsti/konsum"
     ]
   }
