@@ -2,8 +2,7 @@
   "template": {
     "properties": {},
     "inheritFrom": [
-      "arlac77/template-node-component",
-      "arlac77/template-travis"
+      "arlac77/template-node-component"
     ],
     "usedBy": [
       "arlac77/mkpr",
