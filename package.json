@@ -10,6 +10,7 @@
       "arlac77/symatem-infrastructure",
       "arlac77/url-cmd",
       "konsumation/konsum",
+      "konsumation/timeseries-sqlite2leveldb",
       "template-tools/template-sync-cli"
     ]
   }
