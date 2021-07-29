@@ -5,6 +5,7 @@
       "arlac77/template-node-component"
     ],
     "usedBy": [
+      "arlac77/browser-ava",
       "arlac77/mkpr",
       "arlac77/node-symatem",
       "arlac77/repo-util",
