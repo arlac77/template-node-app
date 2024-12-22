@@ -1,6 +1,5 @@
 {
   "template": {
-    "properties": {},
     "inheritFrom": [
       "arlac77/template-node-component"
     ],
