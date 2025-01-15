@@ -7,10 +7,11 @@
       "arlac77/browser-ava",
       "arlac77/config-expander-cli",
       "arlac77/mkpr",
+      "arlac77/pmcf",
       "arlac77/repo-util",
       "arlac77/url-cmd",
-      "konsumation/konsum",
       "konsumation/importer",
+      "konsumation/konsum",
       "konsumation/timeseries-sqlite2leveldb",
       "template-tools/template-sync-cli"
     ]
